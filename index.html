@@ -1,1 +1,462 @@
-<h1>kd</h1>
+@page
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@model ResumeWebsite.Pages.IndexModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Passionate lead/developer having experience in consulting, designing, developing and delivering solutions to enterprises using Microsoft Azure Technologies. Azure, SQLAzure, CosmosDB, AzureDataFactory, WebApp" />
+    <meta name="keywords" content="Azure, SQLAzure, CosmosDB, AzureDataFactory, WebApp, Data Engineer, Azure Certified Cloud Consultant">
+    <title>Kuldeep Singh - Cloud ARCHITECT, Manager, DevOps, Data Engineer</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link href="css/bootstrap1.min.css" rel="stylesheet">
+    <link href="css/site1.css" rel="stylesheet">
+    <link href="css/responsive.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        !function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{
+        src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+        // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+        // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+        // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+        crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+        // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+        cfg: { // Application Insights Configuration
+            connectionString:"@Configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"]"
+            /* ...Other Configuration Options... */
+        }});
+    </script>
+</head>
+<body>
+    @{
+        var bannerURL = string.Format("{0}/images/cloudbanner.jpg{1}", Configuration["BlobURL"], Configuration["SASToken"]);
+        var profileImgURL = string.Format("{0}/images/kd.jpg{1}", Configuration["BlobURL"], Configuration["SASToken"]);
+        var resumeURL = string.Format("{0}/resume/KuldeepSingh_Resume.pdf{1}", Configuration["BlobURL"], Configuration["SASToken"]);
+    }
+
+    <div class="right-br"></div>
+
+    <div class="fixed-right-socials">
+        <ul class="list-unstiled">
+            <li><a target="_new" href="https://github.com/kuldeepsingh-k"><i class="fa fa-github"></i></a></li>
+            <li><a target="_new" href="https://www.linkedin.com/in/kuldeepsingh-k"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a target="_new" href="https://www.instagram.com/kuldeep.singh.k/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            <li><a href="mailto:in.singhkuldeep@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+            <li><a href="/PersonalProfile"><i class="fa fa-user-circle-o"></i></a></li>
+        </ul>
+    </div>
+    <!-- Sidebar -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 sidebar">
+                <div class="col-sm-2 sidebarWrapper">
+                    <!-- Avatar -->
+                    <img class="user-pic" src="@profileImgURL" alt="">
+                    @*<div class="signature">
+                        <img class="img-responsive" alt="signature" src="images/signature.png">
+                        </div>*@
+                    <!-- Menu -->
+                    <button class="btn downloadResume" type="submit" onclick="window.open('@resumeURL')">
+                        <i class="fa fa-download"></i> Download CV
+                    </button>
+                    <div class="row left-social">
+                        <a target="_new" href="https://github.com/kuldeepsingh-k"><i class="fa fa-github fa-2x"></i></a>
+                        <a target="_new" href="https://www.linkedin.com/in/kuldeepsingh-k"><i class="fa fa-linkedin fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a target="_new" href="https://www.instagram.com/kuldeep.singh.k/"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="mailto:in.singhkuldeep@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+                    </div>
+                    <div class="menu">
+                        <div class="toggle-btn">
+                            <span class="lines"></span>
+                        </div>
+                        <ul class="nav">
+                            <li class="active">
+                                <a href="#about"><i class="fa fa-user-circle-o fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#skills"><i class="fa fa-code fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#certifications"><i class="fa fa-certificate fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#experience"><i class="fa fa-briefcase fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#education"><i class="fa fa-university fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </div><!-- end Menu -->
+                </div>
+            </div>
+        </div><!-- end row -->
+    </div><!-- end container -->
+    <!-- end Sidebar -->
+    <!-- About section -->
+    <section id="about">
+        <div class="about-background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-9 mainContentWrapper">
+                        <!-- Section Title -->
+                        <div class="section-title">
+                            <h2><i class="fa fa-user-circle-o"></i> About me</h2>
+                        </div><!-- end Section Title -->
+                        <h1>Hello! I am <strong>Kuldeep Singh</strong> <br>MANAGER | CLOUD SOLUTION ARCHITECT | DATA & ANALYTICS</h1>
+                        <p class="content-box">
+                            I have experience in consulting, designing, developing and delivering enterprise solutions. I am Microsoft certified Trainer, Azure Solution Architect, DevOps Engineer, Data Engineer and Azure Administrator.
+                            I have a bachelor of engineering in Information Technology degree from University of Pune.
+                        </p>
+
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div>
+    </section>
+    <!-- end About section -->
+    <!-- skills section -->
+    <section id="skills">
+        <div class="about-background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-9 mainContentWrapper">
+                        <div class="section-title">
+                            <h2><i class="fa fa-code"></i> Skills</h2>
+                        </div><!-- end Section Title -->
+                        <div class="content-box text-center">
+                            @foreach (var item in Model.Technologies)
+                            {
+                                <label class="skill-label"> @item</label>
+                            }
+                        </div>
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div>
+    </section>
+    <!-- end skills section -->
+    <!-- certifications section -->
+    <section id="certifications">
+        <div class="about-background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-9 mainContentWrapper">
+                        <div class="section-title">
+                            <h2><i class="fa fa-certificate"></i> Certifications</h2>
+                        </div>
+                        <div class="content-box text-center">
+                            @foreach (var item in Model.CredlyBadges.OrderByDescending(x => x.Title))
+                            {
+                                <div class="badgeCard">
+                                    <img class="badge-img" src="@item.BadgeURL" alt="@item.Title" onerror="this.src='@item.BadgeURLFallBack'">
+                                    <div class="card-body">
+                                        <p class="badgeTitle">@item.Title</p>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div>
+    </section>
+    <!-- end certifications section -->
+    <!-- Resume section -->
+    <section id="experience">
+        <div class="mainContentBackground">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-9 col-sm-offset-3 mainContentWrapper">
+                        <div class="section-title">
+                            <h2><i class="fa fa-briefcase"></i> Work Experience</h2>
+                        </div>
+                        <div class="content-box">
+                            <div class="resume-box">
+                                <div class="row">
+                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                        <img class="company-pic" src="/4-pwc.png" alt="">
+                                    </div>
+                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                        <h5>PwC UK</h5>
+                                        <h3>Manager / Cloud Solution Architect</h3>
+                                        <div class="row" style="height:30px;">
+                                            <span class="col-xs-12 col-sm-6 text-left">June 2022 – Present</span>
+                                            <span class="col-xs-12 col-sm-6 text-right">London, UK</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                                        <li class="experiencelist">
+                                            Responsibilities included gathering customer requirement, architecting, developing and delivering solutions.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="resume-box">
+                                <div class="row">
+                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                        <img class="company-pic" src="/3-msft.png" alt="">
+                                    </div>
+                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                        <h5>Microsoft</h5>
+                                        <h3>Customer Engineer</h3>
+                                        <div class="row" style="height:30px;">
+                                            <span class="col-xs-12 col-sm-6 text-left">July 2019 - May2020</span>
+                                            <span class="col-xs-12 col-sm-6 text-right">London, UK</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                                        <li class="experiencelist">
+                                            Delivered training and services to end customers, focusing on cloud technologies as well as troubleshooting, strategy and best practices.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Worked with customers to plan, deploy, operate and optimize their modern cloud applications and helped them in accomplishing their business needs.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Synthesized customer feedback to facilitate continuous product/services improvement in close co-operation with Product/Engineering teams.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Worked on an engagement where a customer was modernizing their
+                                            application, I helped them understand the various Azure services available
+                                            for their application migration. One Key service was Azure Cosmos DB. I
+                                            educated the customer development team on Cosmos DB, helped them
+                                            with writing SQL api queries and performance optimization of the
+                                            database. As a result, this customer was able to optimize the cost of
+                                            servicesrunning in Azure.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Delivered series of workshops and sessions focusing on various Azure
+                                            services. I delivered a session to their SLT team, where I helped them in
+                                            understanding the capabilities of Azure Security Center via live demos.
+                                            This has resulted in successfully setting up Azure security centre for
+                                            customer's environments. I delivered sessions/workshops around ARM
+                                            templates, IaaC, Azure DevOps, Azure SQL, Azure Data Studio and Azure
+                                            cosmos DB to upskill their developers and get on board quickly.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Worked with one of my customer in automating their workloads in Azure.
+                                            I delivered a workshop focusing on ARM templates, Azure monitor,
+                                            automation using CI/CD pipelines. This helped customer in understanding
+                                            the various automation services available in Azure and automating their
+                                            cloud workload.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Delivered a workshop on 'Developing accessible applications'. This
+                                            workshop helped customer understand what accessibility is and what it
+                                            means in web and mobile application development. In this workshop, I
+                                            created demos to show the common accessibility issues, various tools
+                                            that can be used to identify the defects. I created a hands-on lab exercise
+                                            to practice attendees on accessibility defects. This workshop is the perfect
+                                            example of inclusiveness, where we educate the attendees to create
+                                            applications accessible to everyone.
+                                        </li>
+                                        <li class="experiencelist">
+                                            While working with one of the customers I delivered multiple sessions on
+                                            PowerBI, Azure DevOps pipelines, security & permissions, Azure Data
+                                            Factory, Azure SQL deployment. This has resulted in a successful Data
+                                            factory orchestration for the customer. I worked with their developer
+                                            teams in helping them write code, following best practices. I took the
+                                            product feedback from the customer and worked with our Engineering
+                                            team in product enhancement.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="resume-box">
+                                <div class="row">
+                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                        <img class="company-pic" src="/3-msft.png" alt="">
+                                    </div>
+                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                        <h5>Microsoft</h5>
+                                        <h3>Consultant</h3>
+                                        <div class="row" style="height:30px;">
+                                            <span class="col-xs-12 col-sm-6 text-left">Jan 2016 - July 2019</span>
+                                            <span class="col-xs-12 col-sm-6 text-right">Hyderabad, India</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                                        <li class="experiencelist">
+                                            Lead the database team of $42M auditing application, along with the team of 100+ for GTI. GTI is one of the leading audit, tax and advisory ﬁrm.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Responsibilities included designing, developing and delivering solutions that helped customer in doing their Audit in eﬀective ways.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Improved the database performance, which reduces the usage cost from $16k /month to $3.6k /month.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Designed a methodology of continuous migration which ensures the schema changes made post production release is appropriately versioned and continuously migrated with daily builds.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Bring in the best minds to the organization via interviews conducted across the country.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="resume-box">
+                                <div class="row">
+                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                        <img class="company-pic" src="/2-aon.png" alt="">
+                                    </div>
+                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                        <h5>Aon Hewitt</h5>
+                                        <h3>Software Executive</h3>
+                                        <div class="row" style="height:30px;">
+                                            <span class="col-xs-12 col-sm-6 text-left">Aug 2015 – Jan 2016</span>
+                                            <span class="col-xs-12 col-sm-6 text-right">Gurgoan, India</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                                        <li class="experiencelist">
+                                            Developed a web application ‘Hewitt Gateway’ with the team of 50+ distributed across globe which helped in managing projects, employee, client and their distribution related information worldwide.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Lead the activity of migration of applications from Windows server 2003 to Windows server 2008, which enables the customer to use the latest features of windows server 2008.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="resume-box">
+                                <div class="row">
+                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                        <img class="company-pic" src="/1-icertis.png" alt="">
+                                    </div>
+                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                        <h5>Icertis</h5>
+                                        <h3>Software Analyst</h3>
+                                        <div class="row" style="height:30px;">
+                                            <span class="col-xs-12 col-sm-6  text-left">Aug 2012 – Jul 2015</span>
+                                            <span class="col-xs-12 col-sm-6 text-right">Pune, India</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                                        <li class="experiencelist">
+                                            Responsibilities included gathering customer requirement, architecting, developing and delivering solutions.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Design, develop and deliver a web application ‘Retail process automation’, which streamline the process of opening Microsoft stores.
+                                        </li>
+                                        <li class="experiencelist">
+                                            Developed a native windows phone application, HelpBridge. This helps you connect with your loved ones during natural disasters. It also enables you to
+                                            give your money, time and resources to support relief and rebuilding efforts
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div>
+    </section>
+    <!-- end Resume section -->
+    <!-- Blog section -->
+    <section id="education">
+        <div class="mainContentBackground">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-9 col-sm-offset-3 mainContentWrapper">
+                        <div class="section-title">
+                            <h2><i class="fa fa-university"></i> Education</h2>
+                        </div>
+                        <div class="content-box">
+                            <div class="resume-box">
+                                <div class="row">
+                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                        <img class="company-pic" src="/unipune.png" alt="">
+                                    </div>
+                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                        <h5>University of Pune - Bachelor's Degree</h5>
+                                        <span>2008 – 2012</span>
+                                        <p>
+                                            Bachelor of Engineering in Information Technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Blog section -->
+
+    <section id="certificates">
+        <div class="mainContentBackground">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-9 col-sm-offset-3 mainContentWrapper">
+                        <div class="section-title">
+                            <h2>Cetrificates</h2>
+                        </div><!-- end Section Title -->
+                        <div class="content-box">
+                            <div class="text-center">
+                                @foreach (var item in Model.Certificates)
+                                {
+                                    <div class="certCard">
+                                        <img class="cert-img" src="@item" alt="">
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-9 col-sm-offset-3 footer-background">
+                    <div class="row">
+                        <div class="col-sm-6 text-left">
+                            @*Copyright &copy; 2020 Kuldeep. All rights reserved. *@
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            Designed By <a target="_blank" href="https://www.linkedin.com/in/kuldeepsingh-k">Kuldeep Singh</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/site.js"></script>
+
+</body>
+</html>
