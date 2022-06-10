@@ -160,14 +160,14 @@
                         </div>
                         <div class="content-box text-center">
                             @foreach (var item in Model.CredlyBadges.OrderByDescending(x => x.Title))
-                            {
+                            <!--{
                                 <div class="badgeCard">
                                     <img class="badge-img" src="@item.BadgeURL" alt="@item.Title" onerror="this.src='@item.BadgeURLFallBack'">
                                     <div class="card-body">
                                         <p class="badgeTitle">@item.Title</p>
                                     </div>
                                 </div>
-                            }
+                            }-->
                         </div>
                     </div>
                 </div><!-- end row -->
