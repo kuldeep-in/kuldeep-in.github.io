@@ -1,0 +1,314 @@
+/*X-Small None <576px
+Small sm ?576px
+Medium md ?768px
+Large lg ?992px
+Extra large xl ?1200px
+Extra extra large xxl ?1400px*/
+
+@media only screen and (min-width: 768px) {
+    .sidebarWrapper {
+        position:fixed;
+        /*height: 100vh;*/
+    }
+
+    .toggle-btn {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .toggle-placeholder {
+        display: none;
+    }
+
+    .service-box, .skill-outer {
+        float: left;
+        width: 50%;
+    }
+
+        .service-box:nth-child(2n+1), .skill-outer:nth-child(2n) {
+            padding-left: 25px;
+        }
+
+        .service-box:nth-child(2n), .skill-outer:nth-child(2n+1) {
+            padding-right: 25px;
+        }
+
+    .portfolio-filter ul li {
+        margin-right: 10px;
+    }
+
+        .footer-background ul li:last-child, .portfolio-filter ul li:last-child {
+            margin: 0;
+        }
+
+    .contact-form {
+        padding: 0 25px 0 0;
+    }
+
+    .contact-info {
+        padding: 0 0 0 25px;
+    }
+
+    .footer-background ul li {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        /*background-color: #fff;*/
+    }
+
+    .container {
+        width: 1070px;
+    }
+
+    .mainContentWrapper {
+        padding: 0;
+        margin-left: 28%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .aboutWrapper, .blogWrapper, .contactWrapper, .footer-background, .portfolioWrapper, .resumeWrapper, .servicesWrapper, .testimonialWrapper {
+        margin-left: 30%;
+        width: 70%;
+    }
+
+    .mainContentWrapper {
+        padding: 0;
+        margin-left: 26%;
+    }
+
+    .container {
+        width: 1270px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .aboutWrapper, .blogWrapper, .contactWrapper, .footer-background, .portfolioWrapper, .resumeWrapper, .servicesWrapper, .testimonialWrapper {
+        margin-left: 35%;
+        width: 65%;
+    }
+
+    .mainContentWrapper {
+        padding: 0;
+        margin-left: 28%;
+    }
+
+    .container {
+        width: 1570px;
+    }
+
+    /*.downloadResume {
+        cursor: pointer;*/
+    /*width: 200px;*/
+    /*background: var(--pColor1);
+        font-size: .8em;
+        padding: 6px 8px;
+    }*/
+}
+
+
+@media screen and (max-width: 1199px) {
+    body {
+        /*background-color: #fff;*/
+    }
+
+    /*.about-background, .mainContentBackground {
+        padding-right: 40px;
+    }*/
+
+    .mainContentWrapper {
+        padding: 0;
+        margin-left: 24%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        /*background-color: #fff;*/
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .downloadResume {
+        cursor: pointer;
+        /*width: 200px;*/
+        background: var(--pColor1);
+        font-size: .8em;
+        padding: 6px 8px;
+    }
+
+    .mainContentWrapper {
+        padding: 0;
+        margin-left: 23%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        /*background-color: #fff;*/
+    }
+
+    .content-box {
+        padding: 10px 5px;
+        border-radius: 6px;
+    }
+
+    .downloadResume {
+        cursor: pointer;
+        /*width: 200px;*/
+        background: var(--pColor1);
+        font-size: 1em;
+        padding: 6px 32px;
+    }
+
+    .section-title h2 i {
+        font-size: 1.2em;
+    }
+
+    .section-title h2 {
+        font-size: 2.4em;
+    }
+
+    .mainContentWrapper {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .resumeWrapper {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .user-pic {
+        border-radius: 230px;
+        width: 85%;
+    }
+
+    .fixed-left-contact, .right-br, .left-br {
+        display: none;
+    }
+
+    .fixed-right-socials {
+        display: none;
+    }
+
+    .left-social {
+        display: block;
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .nav {
+        background: #141414 none repeat scroll 0 0;
+        box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.3);
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 60px;
+        transform: translateY(-10px);
+        transition: all 0.3s ease-out 0s;
+        visibility: hidden;
+        width: 100%;
+        z-index: 997;
+    }
+
+    .show-nav {
+        opacity: 1;
+        transform: translateY(0px);
+        visibility: visible;
+    }
+
+    .stickyNav {
+        left: 30px;
+        position: fixed;
+        right: 30px;
+        width: auto;
+    }
+
+    .about-background, .services-background, .skill-outer:last-child {
+        margin: 0;
+    }
+
+    .skill-outer {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+        .service-box:last-child {
+            margin: 0;
+        }
+
+    .portfolio-filter ul {
+        margin: -10px 0;
+    }
+
+        .portfolio-filter ul li {
+            margin: 10px 20px 10px 0;
+        }
+
+    .blog-post div:last-child {
+        padding: 30px 0 0;
+    }
+
+    .contact-form {
+        margin-bottom: 50px;
+    }
+
+    .footer-background ul {
+        margin: 20px 0 -10px;
+    }
+
+        .footer-background ul li {
+            padding: 10px;
+        }
+}
+
+@media screen and (max-width: 580px) {
+    .resumeWrapper {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .card-body {
+        display: none;
+    }
+
+    .resume-box {
+        margin-bottom: 30px;
+        border-radius: 6px;
+        background-color: var(--bgColor3);
+    }
+
+    .badgeCard {
+        border: 0;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        width: 31%;
+        margin-bottom: 10px;
+        box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .certCard {
+        border: 0;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: 25px;
+        box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    }
+}
