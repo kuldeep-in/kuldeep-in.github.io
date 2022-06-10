@@ -1,7 +1,7 @@
-@page
+<!--@page
 @using Microsoft.Extensions.Configuration
 @inject IConfiguration Configuration
-@model ResumeWebsite.Pages.IndexModel
+@model ResumeWebsite.Pages.IndexModel -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -39,11 +39,11 @@
     </script>
 </head>
 <body>
-    @{
+    <!--@{
         var bannerURL = string.Format("{0}/images/cloudbanner.jpg{1}", Configuration["BlobURL"], Configuration["SASToken"]);
         var profileImgURL = string.Format("{0}/images/kd.jpg{1}", Configuration["BlobURL"], Configuration["SASToken"]);
         var resumeURL = string.Format("{0}/resume/KuldeepSingh_Resume.pdf{1}", Configuration["BlobURL"], Configuration["SASToken"]);
-    }
+    }-->
 
     <div class="right-br"></div>
 
@@ -65,9 +65,9 @@
                 <div class="col-sm-2 sidebarWrapper">
                     <!-- Avatar -->
                     <img class="user-pic" src="@profileImgURL" alt="">
-                    @*<div class="signature">
+                    <!--<div class="signature">
                         <img class="img-responsive" alt="signature" src="images/signature.png">
-                        </div>*@
+                        </div>-->
                     <!-- Menu -->
                     <button class="btn downloadResume" type="submit" onclick="window.open('@resumeURL')">
                         <i class="fa fa-download"></i> Download CV
