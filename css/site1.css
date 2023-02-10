@@ -11,7 +11,7 @@
     --fontColor2: #BFBFBF;
     --fontColor3: #919191;
     --fontColor4Green: #62c2bc;
-    --pColor1: #3700B3;
+    --buttonColor1: #30686f;
 }
 
 a {
@@ -998,11 +998,11 @@ textarea {
 }
 
 .list-unstiled .fa-envelope-o {
-    background: var(--pColor1) none repeat scroll 0 0;
+    background: var(--buttonColor1) none repeat scroll 0 0;
 }
 
 .left-social .fa-envelope-o {
-    background: var(--pColor1) none repeat scroll 0 0;
+    background: var(--buttonColor1) none repeat scroll 0 0;
 }
 
 .list-unstiled .fa-user-circle-o {
@@ -1022,8 +1022,8 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
 .downloadResume {
     cursor: pointer;
     /*width: 200px;*/
-    background:var(--pColor1);
-    font-size:1em;
+    background: var(--buttonColor1);
+    font-size: 1em;
     padding: 6px 16px;
 }
 

@@ -125,7 +125,7 @@ Extra extra large xxl ?1400px*/
     .downloadResume {
         cursor: pointer;
         /*width: 200px;*/
-        background: var(--pColor1);
+        background: var(--buttonColor1);
         font-size: 1em;
         padding: 6px 32px;
     }
