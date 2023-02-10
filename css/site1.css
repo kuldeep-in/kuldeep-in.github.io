@@ -10,15 +10,8 @@
     --fontColor1: #cadaf8;
     --fontColor2: #BFBFBF;
     --fontColor3: #919191;
+    --fontColor4Green: #62c2bc;
     --pColor1: #3700B3;
-}
-
-h1, h2 {
-    letter-spacing: 1px;
-}
-
-h3, h4 {
-    margin: 0 0 10px;
 }
 
 a {
@@ -82,7 +75,14 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
+    letter-spacing: 1px;
+    color: var(--fontColor4Green);
+    font-family: "MyFont01", 'Titillium Web', sans-serif;
+}
+
+h3, h4, h5 {
+    margin: 0 0 10px;
     color: var(--fontColor1);
     font-family: "MyFont01", 'Titillium Web', sans-serif;
 }
@@ -288,7 +288,7 @@ li {
     }
 
         .sidebar .nav li a:hover, .sidebar .nav li.active a {
-            color: var(--fontColor1);
+            color: var(--fontColor4Green);
             opacity: unset;
             background: var(--bgColor3);
             padding: 15px;
@@ -1083,7 +1083,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
 .badgeCard {
     border: 0;
     background-color: var(--bgColor3);
-    font-size:1.5em;
+    font-size:1.5rem;
     border-radius: 10px;
     display: inline-block;
     position: relative;
