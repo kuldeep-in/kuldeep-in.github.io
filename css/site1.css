@@ -103,7 +103,7 @@ h3 {
 
 .portfolio-filter ul li, .sidebar .nav li, h4 {
     letter-spacing: 1px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 h4 {
@@ -204,7 +204,7 @@ li {
 .sidebar .nav {
     padding: 20px 30px;
      /*background: var(--bgColor2) none repeat scroll 0 0;*/ 
-    padding: 20px 30px;
+    padding: 20px 10px;
 }
 
 .toggle-btn {
@@ -1087,7 +1087,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
     position: relative;
     overflow: hidden;
     width: 16rem;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-right: 5px;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
