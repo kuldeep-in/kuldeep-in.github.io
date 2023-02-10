@@ -1038,6 +1038,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
 .content-box {
     background: var(--bgColor2);
     padding: 20px;
+    margin-right: 20px;
     border-radius: 15px;
 }
 
