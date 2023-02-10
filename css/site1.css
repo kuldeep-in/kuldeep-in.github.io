@@ -112,7 +112,7 @@ h4 {
 
 p {
     line-height: 24px;
-    margin: 0;
+    margin: 0,3;
 }
 
 a, a:focus, a:hover {
