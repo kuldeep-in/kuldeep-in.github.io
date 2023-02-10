@@ -169,7 +169,7 @@ li {
     box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.3);
     color: #fff;
     background: var(--bgColor2);
-    padding: 27px 0 0;
+    padding: 16px 0 0;
     text-align: center;
     /*height: 100vh;*/
 }

@@ -118,8 +118,9 @@ Extra extra large xxl ?1400px*/
     }*/
 
     .content-box {
-        padding: 10px 5px;
+        padding: 10px;
         border-radius: 6px;
+        margin: 5px, 0
     }
 
     .downloadResume {
@@ -150,7 +151,7 @@ Extra extra large xxl ?1400px*/
 
     .user-pic {
         border-radius: 230px;
-        width: 85%;
+        width: 75%;
     }
 
     .fixed-left-contact, .right-br, .left-br {
