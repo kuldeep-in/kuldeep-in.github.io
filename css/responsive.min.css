@@ -8,7 +8,7 @@ Extra extra large xxl ?1400px*/
 /*M*/
 @media only screen and (min-width: 768px) {
     .sidebarWrapper {
-        position:fixed;
+        position: fixed;
         /*height: 100vh;*/
     }
 
@@ -71,8 +71,9 @@ Extra extra large xxl ?1400px*/
 
     .mainContentWrapper {
         padding: 0;
-       /* margin-left: 28%;*/
+        /* margin-left: 28%;*/
     }
+
     .badgeCard {
         width: 13rem;
     }
@@ -110,6 +111,13 @@ Extra extra large xxl ?1400px*/
     }*/
 }
 
+@media screen and (max-width: 991px) {
+    .company-pic {
+        border-radius: 10px;
+        width: 150%;
+        padding: 5px;
+    }
+}
 
 /*Medium-Small*/
 @media screen and (max-width: 767px) {
@@ -117,8 +125,14 @@ Extra extra large xxl ?1400px*/
         background-color: #fff;
     }*/
 
+    .company-pic {
+        border-radius: 10px;
+        width: 130%;
+        padding: 5px;
+    }
+
     .rightContainer {
-        padding:0px;
+        padding: 0px;
     }
 
     .content-box {
@@ -286,36 +300,42 @@ Extra extra large xxl ?1400px*/
         margin-bottom: 25px;
         box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
     }
+
+    .company-pic {
+        border-radius: 10px;
+        width: 150%;
+        padding: 5px;
+    }
 }
 
 /*@media screen and (max-width: 1199px) {*/
-    /*body {
+/*body {
         background-color: #fff;
     }*/
 
-    /*.about-background, .mainContentBackground {
+/*.about-background, .mainContentBackground {
         padding-right: 40px;
     }*/
 
-    /*.mainContentWrapper {
+/*.mainContentWrapper {
         padding: 0;
         margin-left: 24%;
     }
 }*/
 
 /*@media screen and (max-width: 991px) {*/
-    /*body {
+/*body {
         background-color: #fff;
     }*/
 
-    /*.container {
+/*.container {
         padding: 0 20px;
     }
 
     .downloadResume {
         cursor: pointer;*/
-        /*width: 200px;*/
-        /*background: var(--pColor1);
+/*width: 200px;*/
+/*background: var(--pColor1);
         font-size: .8em;
         padding: 6px 8px;
     }
