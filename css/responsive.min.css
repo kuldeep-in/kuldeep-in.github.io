@@ -111,6 +111,7 @@ Extra extra large xxl ?1400px*/
     }*/
 }
 
+/*Medium*/
 @media screen and (max-width: 991px) {
     .company-pic {
         border-radius: 10px;
@@ -119,7 +120,7 @@ Extra extra large xxl ?1400px*/
     }
 }
 
-/*Medium-Small*/
+/*Small*/
 @media screen and (max-width: 767px) {
     /*body {
         background-color: #fff;
@@ -147,7 +148,8 @@ Extra extra large xxl ?1400px*/
         /*width: 200px;*/
         background: var(--buttonColor1);
         font-size: 1em;
-        padding: 6px 32px;
+        padding: 10px 32px;
+        margin-top:30px;
     }
 
     .section-title h2 i {
@@ -262,7 +264,7 @@ Extra extra large xxl ?1400px*/
         }
 }
 
-/*Small*/
+/*X Small*/
 @media screen and (max-width: 580px) {
     .resumeWrapper {
         padding: 0;
@@ -303,7 +305,7 @@ Extra extra large xxl ?1400px*/
 
     .company-pic {
         border-radius: 10px;
-        width: 150%;
+        width: 180%;
         padding: 5px;
     }
 }
