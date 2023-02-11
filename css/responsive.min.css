@@ -124,8 +124,8 @@ Extra extra large xxl ?1400px*/
     .content-box {
         padding: 10px;
         border-radius: 6px;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .downloadResume {
