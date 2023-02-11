@@ -117,6 +117,10 @@ Extra extra large xxl ?1400px*/
         background-color: #fff;
     }*/
 
+    .rightContainer {
+        padding:0px;
+    }
+
     .content-box {
         padding: 10px;
         border-radius: 6px;
