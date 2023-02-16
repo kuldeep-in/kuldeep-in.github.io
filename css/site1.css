@@ -1031,6 +1031,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
     background: var(--bgColor3);
     font-size: 1em;
     padding: 6px 16px;
+    box-shadow: 1px 1px 4px rgba(230, 230, 230);
 }
 
     .downloadResume:focus {
