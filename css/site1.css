@@ -554,7 +554,7 @@ button.mfp-close:hover {
     padding:10px;
     margin-bottom: 20px;
     border-radius: 15px;
-    background-color: var(--bgColor3);
+    background-color: var(--fontColor4Green);
 }
 
     /*.resume-box:last-child {
