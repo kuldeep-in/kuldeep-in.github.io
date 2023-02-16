@@ -1027,7 +1027,8 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
 .downloadResume {
     cursor: pointer;
     /*width: 200px;*/
-    background: var(--fontColor4Green);
+    color: var(--fontColor1);
+    background: var(--bgColor3);
     font-size: 1em;
     padding: 6px 16px;
 }
