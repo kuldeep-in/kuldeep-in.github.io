@@ -97,11 +97,279 @@ var skillsList = [
 // Technologies
 // Get the container element
 var skillsContainer = document.getElementById("dynamicSkills");
-
 // Loop through the labels array
 for (var i = 0; i < skillsList.length; i++) {
     var label = document.createElement("label");
     label.textContent = skillsList[i].text;
     label.classList.add("skill-label");
     skillsContainer.appendChild(label);
+}
+
+var badgeObjects = [
+    {
+        imageUrl: "https://images.credly.com/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: Azure Solutions Architect Expert",
+        title: "Azure Solutions Architect Expert"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: DevOps Engineer Expert",
+        title: "DevOps Engineer Expert"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/452203ac-9ce5-40b6-a136-5fee18544a89/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: Customer Data Platform Specialty",
+        title: "Customer Data Platform Specialty"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/515fa1dc-ac4a-4f08-ac73-6fd9694124cb/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: Azure Cosmos DB Developer Specialty",
+        title: "Azure Cosmos DB Developer Specialty"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/61542181-0e8d-496c-a17c-3d4bf590eda1/azure-data-engineer-associate-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: Azure Data Engineer Associate",
+        title: "Azure Data Engineer Associate"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/edc0b0d8-55ec-4dfe-9353-22c1bc4e07e8/azure-database-administrator-associate-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: Azure Database Administrator Associate",
+        title: "Azure Database Administrator Associate"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/619f60f8-4f63-4772-910e-dc31c6f2f7e8/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: Power BI Data Analyst Associate",
+        title: "Power BI Data Analyst Associate"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: Azure Security Engineer Associate",
+        title: "Azure Security Engineer Associate"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: Azure Administrator Associate",
+        title: "Azure Administrator Associate"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/63316b60-f62d-4e51-aacc-c23cb850089c/azure-developer-associate-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified: Azure Developer Associate",
+        title: "Azure Developer Associate"
+    },
+    {
+        imageUrl: "images/Badges/DatabricksFundamentals.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Databricks Lakehouse Fundamentals",
+        title: "Databricks Lakehouse Fundamentals"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/fd6bb2af-2f05-4d9b-a23e-39f8e309a82d/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified Trainer 2023-2024",
+        title: "Microsoft Certified Trainer 2023-2024"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/bb4156e4-c2e1-4399-b03c-af6feb7a6cc4/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified Trainer 2022-2023",
+        title: "Microsoft Certified Trainer 2022-2023"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/a6ea4416-4f34-4a85-bc24-eb3fe32fd241/MCT-Microsoft_Certified_Trainer-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Microsoft Certified Trainer 2021-2022",
+        title: "Microsoft Certified Trainer 2021-2022"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/3c27bae0-76fa-4b69-b7ac-907b4dfcf382/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "OpenHack: Modern Data Warehousing",
+        title: "OpenHack: Modern Data Warehousing"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/63873eba-9e8c-41a9-8a35-9d23adee14cb/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Azure Data Explorer In-A-Day",
+        title: "Azure Data Explorer In-A-Day"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/1e07abc3-dc08-4320-af38-43824afc659d/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Kusto Detective Agency",
+        title: "Kusto Detective Agency"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/304d7409-3dd5-40b6-ab20-88d3ec012eb1/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Kusto Detective Agency - S2E1",
+        title: "Kusto Detective Agency - S2E1"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/6c7fb568-a3cb-4868-9563-34c31ba3e347/Valuable-Contributor-Silver.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Valuable Contributor Silver",
+        title: "Valuable Contributor Silver"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/c081877f-08c1-4b72-bb79-8dd795daadff/Valuable-Contributor-Gold.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Valuable Contributor Gold",
+        title: "Valuable Contributor Gold"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/e9bba6ed-6850-4c95-bc14-77886a88efc9/Onboarding-Buddy-Gold.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Onboarding Buddy Gold",
+        title: "Onboarding Buddy Gold"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/5a009304-bf5b-4570-a58a-84eab2e05085/Mentor-Silver.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Mentor Silver",
+        title: "Mentor Silver"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/01334c2e-86a5-49ee-8c11-2e12a482a122/Mentor-Gold.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Mentor Gold",
+        title: "Mentor Gold"
+    },
+    {
+        imageUrl: "images/Badges/CosmosDB_Mentor.jpg",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Mentor: Azure Cosmos DB",
+        title: "Mentor: Azure Cosmos DB"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/d807abc0-9201-41a8-ad25-90ed4a69ee51/Acc_Badge_v4.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Accessibility in Action",
+        title: "Accessibility in Action"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/2b47d3a8-9633-4a91-8c45-a58c84a070ac/LODS_Classes_Delivered_Badges_Role-01.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Skillable - First Class Delivered",
+        title: "Skillable - First Class Delivered"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/28c9f5d8-5dce-4ac7-ba72-68652b57648e/LODS_Classes_Delivered_Badges_Role-02.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Skillable - 10 Classes Delivered",
+        title: "Skillable - 10 Classes Delivered"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/39062840-39ce-47d5-9847-77cb60ccf5e9/LODS_Students_Reached_Badges_Role-03.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Skillable - 25 Students Reached",
+        title: "Skillable - 25 Students Reached"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/0db940b3-280d-4adc-a753-6c854c75bf33/LODS_Students_Reached_Badges_Role-04.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Skillable - 50 Students Reached",
+        title: "Skillable - 50 Students Reached"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/741ca87d-39d8-45aa-9e1b-f61f049af625/LODS_Students_Reached_Badges_Role-05.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Skillable - 75 Students Reached",
+        title: "Skillable - 75 Students Reached"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/f4ad1de8-5729-4760-8aa4-ab7a2bf55ea0/LODS_Students_Reached_Badges_Role-06.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Skillable - 100 Students Reached",
+        title: "Skillable - 100 Students Reached"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/8c6dbe49-15cf-4982-9406-ec65b75a4576/Microsoft_Exam534.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Exam 534: Architecting Microsoft Azure Solutions",
+        title: "Architecting Microsoft Azure Solutions"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/c4671de2-68f7-4219-952d-2e955e25f453/exam-dp201-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "DP-201 Designing an Azure Data Solution",
+        title: "DP-201 Designing an Azure Data Solution"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/af626bbe-ed13-472f-9e72-d4808474acb5/exam-dp200-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "DP-200 Implementing an Azure Data Solution",
+        title: "DP-200 Implementing an Azure Data Solution"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/107e2eb6-f394-40eb-83d2-d8c9b7d34555/exam-az400-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "AZ-400: Designing and Implementing Microsoft DevOps Solutions",
+        title: "AZ-400: Designing and Implementing Microsoft DevOps Solutions"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/28004779-9175-4fc8-be6f-448663c9422b/exam-az301-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "AZ-301 Microsoft Azure Architect Design",
+        title: "AZ-301 Microsoft Azure Architect Design"
+    },
+    {
+        imageUrl: "https://images.credly.com/images/c66ddfa8-4e9d-41e4-bf98-244a4d55a14e/exam-az300-600x600.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "AZ-300 Microsoft Azure Architect Technologies",
+        title: "AZ-300 Microsoft Azure Architect Technologies"
+    },
+    {
+        imageUrl: "images/Badges/adf.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Accredited: Azure Data Factory",
+        title: "Accredited: Azure Data Factory"
+    }
+
+];
+
+var badgeContainer = document.getElementById("dynamicBadges");
+// Loop to create the HTML structure dynamically
+for (var j = 0; j < badgeObjects.length; j++) {
+    var badgeCard = document.createElement("div");
+    badgeCard.classList.add("badgeCard");
+
+    var badgeImage = document.createElement("img");
+    badgeImage.classList.add("badge-img");
+    badgeImage.src = badgeObjects[j].imageUrl;
+    badgeImage.alt = badgeObjects[j].altText;
+    badgeImage.onerror = createFallbackImageHandler(badgeObjects[j].fallbackImageUrl);
+
+    var cardBody = document.createElement("div");
+    cardBody.classList.add("card-body");
+
+    var badgeTitle = document.createElement("p");
+    badgeTitle.classList.add("badgeTitle");
+    badgeTitle.textContent = badgeObjects[j].title;
+
+    var lineDiv = document.createElement("div");
+    lineDiv.classList.add("line");
+
+    cardBody.appendChild(badgeTitle);
+    badgeCard.appendChild(badgeImage);
+    badgeCard.appendChild(lineDiv);
+    badgeCard.appendChild(cardBody);
+
+    badgeContainer.appendChild(badgeCard);
+}
+
+// Function to handle fallback image loading
+function createFallbackImageHandler(fallbackImageUrl) {
+    return function () {
+        this.src = fallbackImageUrl;
+    };
 }
