@@ -67,3 +67,41 @@ $(function () {
     //     n = new GMaps({ el: "#map-canvas", lat: l, lng: t, zoom: 16, scrollwheel: !1 });
     // n.addMarker({ lat: l, lng: t, icon: s });
 });
+
+var skillsList = [
+
+    { text: "Enterprise Application Architecture" },
+    { text: "Cloud / Digital transformation" },
+    { text: "Data transformation and migration" },
+    { text: "Project Management" },
+    { text: "Solution Design" },
+    { text: "Agile / Scrum" },
+    { text: "Microsoft Azure Cloud" },
+    { text: "Sustainability Cloud" },
+    { text: "Azure Web/ Compute" },
+    { text: "Azure SQL" },
+    { text: "Cosmos DB" },
+    { text: "Azure Storage" },
+    { text: "Azure Data Factory" },
+    { text: "Azure Synapse" },
+    { text: "Azure Databrick" },
+    { text: "Data Warehouse" },
+    { text: "Eventing and Messaging" },
+    { text: "Application Monitoring" },
+    { text: "Azure Automation" },
+    { text: "Azure DevOps" },
+    { text: "Power Platform" },
+    { text: "ower BI / Power Apps" }
+];
+
+// Technologies
+// Get the container element
+var skillsContainer = document.getElementById("dynamicSkills");
+
+// Loop through the labels array
+for (var i = 0; i < skillsList.length; i++) {
+    var label = document.createElement("label");
+    label.textContent = skillsList[i].text;
+    label.classList.add("skill-label");
+    skillsContainer.appendChild(label);
+}

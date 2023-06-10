@@ -1058,7 +1058,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
     position: relative;
     overflow: hidden;
     margin-bottom: 7px;
-    margin-right:4px;
+    margin-right: 6px;
     font-weight:400;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
     background-color:var(--bgColor3);
