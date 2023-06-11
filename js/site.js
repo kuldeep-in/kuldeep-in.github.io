@@ -476,7 +476,7 @@ for (var i = 0; i < experienceList.length; i++) {
 
     // Create the second inner div with the class "col-xs-6 col-sm-6 col-md-6 text-left"
     var col2 = document.createElement("div");
-    col2.className = "col-xs-8 col-sm-8 col-md-6 text-left";
+    col2.className = "col-xs-9 col-sm-9 col-md-6 text-left";
 
     // Create the heading element
     var heading = document.createElement("h5");
@@ -494,7 +494,7 @@ for (var i = 0; i < experienceList.length; i++) {
 
     // Create the third inner div with the class "col-xs-6 col-sm-6 col-md-4 pull-right text-right"
     var col3 = document.createElement("div");
-    col3.className = "col-xs-8 col-sm-8 col-md-4 pull-right text-right";
+    col3.className = "col-xs-9 col-sm-9 col-md-4 pull-right text-right";
 
     // Create the date heading element
     var dateHeading = document.createElement("span");
