@@ -1,6 +1,6 @@
 @font-face {
     font-family: "MyFont01";
-    src: url("/MyriadRegular.ttf") format("truetype");
+    src: url("/font/MyriadRegular.ttf") format("truetype");
 }
 
 :root {

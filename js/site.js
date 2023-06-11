@@ -382,30 +382,30 @@ for (var j = 0; j < badgeObjects.length; j++) {
     if (badgeObjects[j].webOnly) {
         badgeCard.classList.add("webOnly");
     }
-    else {
-        var badgeImage = document.createElement("img");
-        badgeImage.classList.add("badge-img");
-        badgeImage.src = badgeObjects[j].imageUrl;
-        badgeImage.alt = badgeObjects[j].altText;
-        badgeImage.onerror = createFallbackImageHandler(badgeObjects[j].fallbackImageUrl);
+    //else {
+    var badgeImage = document.createElement("img");
+    badgeImage.classList.add("badge-img");
+    badgeImage.src = badgeObjects[j].imageUrl;
+    badgeImage.alt = badgeObjects[j].altText;
+    badgeImage.onerror = createFallbackImageHandler(badgeObjects[j].fallbackImageUrl);
 
-        var cardBody = document.createElement("div");
-        cardBody.classList.add("card-body");
+    var cardBody = document.createElement("div");
+    cardBody.classList.add("card-body");
 
-        var badgeTitle = document.createElement("p");
-        badgeTitle.classList.add("badgeTitle");
-        badgeTitle.textContent = badgeObjects[j].title;
+    var badgeTitle = document.createElement("p");
+    badgeTitle.classList.add("badgeTitle");
+    badgeTitle.textContent = badgeObjects[j].title;
 
-        var lineDiv = document.createElement("div");
-        lineDiv.classList.add("line");
+    var lineDiv = document.createElement("div");
+    lineDiv.classList.add("line");
 
-        cardBody.appendChild(badgeTitle);
-        badgeCard.appendChild(badgeImage);
-        badgeCard.appendChild(lineDiv);
-        badgeCard.appendChild(cardBody);
+    cardBody.appendChild(badgeTitle);
+    badgeCard.appendChild(badgeImage);
+    badgeCard.appendChild(lineDiv);
+    badgeCard.appendChild(cardBody);
 
-        badgeContainer.appendChild(badgeCard);
-    }
+    badgeContainer.appendChild(badgeCard);
+    //}
 }
 
 // Function to handle fallback image loading
