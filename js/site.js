@@ -414,3 +414,107 @@ function createFallbackImageHandler(fallbackImageUrl) {
         this.src = fallbackImageUrl;
     };
 }
+
+var experienceList = [
+    {
+        company: "PwC UK",
+        jobTitle: "Manager / Cloud Solution Architect",
+        date: "June 2022 - Present",
+        location: "London, UK",
+        imageSrc: "images/Company/4-pwc.png"
+    },
+    {
+        company: "Microsoft",
+        jobTitle: "Cloud Solution Architect",
+        date: "July 2019 - May2022",
+        location: "London, UK",
+        imageSrc: "images/Company/3-msft.png"
+    },
+    {
+        company: "Microsoft",
+        jobTitle: "Consultant",
+        date: "Jan 2016 - July 2019",
+        location: "Hyderabad, India",
+        imageSrc: "images/Company/3-msft.png"
+    },
+    {
+        company: "Aon Hewitt",
+        jobTitle: "Software Executive",
+        date: "Aug 2015 - Jan 2016",
+        location: "Gurgoan, India",
+        imageSrc: "images/Company/2-aon.png"
+    },
+    {
+        company: "Icertis",
+        jobTitle: "Software Analyst",
+        date: "Aug 2012 - Jul 2015",
+        location: "Pune, India",
+        imageSrc: "images/Company/1-icertis.png"
+    }
+];
+
+var experienceContainer = document.getElementById("dynamicexperience");
+
+// Loop through the list and create divs dynamically
+for (var i = 0; i < experienceList.length; i++) {
+    // Create the outer div with the class "resume-box" and "row"
+    var resumeBox = document.createElement("div");
+    resumeBox.className = "resume-box row";
+
+    // Create the first inner div with the class "col-xs-3 col-sm-3 col-md-2"
+    var col1 = document.createElement("div");
+    col1.className = "col-xs-3 col-sm-3 col-md-2";
+
+    // Create the image element
+    var img = document.createElement("img");
+    img.className = "company-pic";
+    img.src = experienceList[i].imageSrc;
+    img.alt = "";
+
+    // Append the image to the first inner div
+    col1.appendChild(img);
+
+    // Create the second inner div with the class "col-xs-6 col-sm-6 col-md-6 text-left"
+    var col2 = document.createElement("div");
+    col2.className = "col-xs-6 col-sm-6 col-md-6 text-left";
+
+    // Create the heading element
+    var heading = document.createElement("h5");
+    heading.className = "";
+    heading.textContent = experienceList[i].company;
+
+    // Create the span element for job title
+    var jobTitle = document.createElement("span");
+    jobTitle.className = "";
+    jobTitle.textContent = experienceList[i].jobTitle;
+
+    // Append the heading and job title to the second inner div
+    col2.appendChild(heading);
+    col2.appendChild(jobTitle);
+
+    // Create the third inner div with the class "col-xs-6 col-sm-6 col-md-4 pull-right text-right"
+    var col3 = document.createElement("div");
+    col3.className = "col-xs-6 col-sm-6 col-md-4 pull-right text-right";
+
+    // Create the date heading element
+    var dateHeading = document.createElement("h3");
+    dateHeading.className = "";
+    dateHeading.textContent = experienceList[i].date;
+
+    // Create the span element for location
+    var locationSpan = document.createElement("span");
+    locationSpan.className = "";
+    locationSpan.textContent = experienceList[i].location;
+
+    // Append the date heading and location span to the third inner div
+    col3.appendChild(dateHeading);
+    col3.appendChild(locationSpan);
+
+    // Append the three inner divs to the outer div
+    resumeBox.appendChild(col1);
+    resumeBox.appendChild(col2);
+    resumeBox.appendChild(col3);
+
+    // Append the outer div to the parent element
+    experienceContainer.appendChild(resumeBox);
+}
