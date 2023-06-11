@@ -480,12 +480,12 @@ for (var i = 0; i < experienceList.length; i++) {
 
     // Create the heading element
     var heading = document.createElement("h5");
-    heading.className = "";
+    //heading.className = "";
     heading.textContent = experienceList[i].company;
 
     // Create the span element for job title
-    var jobTitle = document.createElement("span");
-    jobTitle.className = "";
+    var jobTitle = document.createElement("h3");
+    //jobTitle.className = "";
     jobTitle.textContent = experienceList[i].jobTitle;
 
     // Append the heading and job title to the second inner div
@@ -497,17 +497,19 @@ for (var i = 0; i < experienceList.length; i++) {
     col3.className = "col-xs-6 col-sm-6 col-md-4 pull-right text-right";
 
     // Create the date heading element
-    var dateHeading = document.createElement("h3");
-    dateHeading.className = "";
+    var dateHeading = document.createElement("span");
+    //dateHeading.className = "";
     dateHeading.textContent = experienceList[i].date;
 
     // Create the span element for location
     var locationSpan = document.createElement("span");
-    locationSpan.className = "";
+    //locationSpan.className = "";
     locationSpan.textContent = experienceList[i].location;
 
+    var lineBreak = document.createElement("br");
     // Append the date heading and location span to the third inner div
     col3.appendChild(dateHeading);
+    col3.appendChild(lineBreak);
     col3.appendChild(locationSpan);
 
     // Append the three inner divs to the outer div
