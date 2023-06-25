@@ -439,14 +439,14 @@ var experienceList = [
     },
     {
         company: "Aon Hewitt",
-        jobTitle: "Software Executive",
+        jobTitle: "Software Engineer",
         date: "Aug 2015 - Jan 2016",
         location: "Gurgoan, India",
         imageSrc: "images/Company/2-aon.png"
     },
     {
         company: "Icertis",
-        jobTitle: "Software Analyst",
+        jobTitle: "Software Analyst – Cloud Technologies",
         date: "Aug 2012 - Jul 2015",
         location: "Pune, India",
         imageSrc: "images/Company/1-icertis.png"
