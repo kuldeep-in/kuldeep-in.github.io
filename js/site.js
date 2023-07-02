@@ -177,7 +177,7 @@ var badgeObjects = [
         webOnly: false
     },
     {
-        imageUrl: "images/Badges/DatabricksFundamentals.png",
+        imageUrl: "images/Badges/Databricks Fundamentals.png",
         fallbackImageUrl: "images/Badges/Badge_Fallback.png",
         altText: "Databricks Lakehouse Fundamentals",
         title: "Databricks Lakehouse Fundamentals",
