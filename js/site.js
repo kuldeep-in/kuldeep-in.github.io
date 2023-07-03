@@ -212,17 +212,17 @@ var badgeObjects = [
         webOnly: false
     },
     {
-        imageUrl: "https://images.credly.com/images/63873eba-9e8c-41a9-8a35-9d23adee14cb/image.png",
+        imageUrl: "https://images.credly.com/images/27c40e7b-98b2-4312-b52c-4454f6c90c52/image.png",
         fallbackImageUrl: "images/Badges/Badge_Fallback.png",
-        altText: "Azure Data Explorer In-A-Day",
-        title: "Azure Data Explorer In-A-Day",
+        altText: "Kusto Detective Agency - S2E3",
+        title: "Kusto Detective Agency - S2E3",
         webOnly: false
     },
     {
-        imageUrl: "https://images.credly.com/images/1e07abc3-dc08-4320-af38-43824afc659d/image.png",
+        imageUrl: "https://images.credly.com/images/8fc10fee-7b05-4b86-8504-01abf614bcac/image.png",
         fallbackImageUrl: "images/Badges/Badge_Fallback.png",
-        altText: "Kusto Detective Agency",
-        title: "Kusto Detective Agency",
+        altText: "Kusto Detective Agency - S2E2",
+        title: "Kusto Detective Agency - S2E2",
         webOnly: false
     },
     {
@@ -230,7 +230,28 @@ var badgeObjects = [
         fallbackImageUrl: "images/Badges/Badge_Fallback.png",
         altText: "Kusto Detective Agency - S2E1",
         title: "Kusto Detective Agency - S2E1",
+        webOnly: true
+    },
+    {
+        imageUrl: "https://images.credly.com/images/63873eba-9e8c-41a9-8a35-9d23adee14cb/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Azure Data Explorer In-A-Day",
+        title: "Azure Data Explorer In-A-Day",
         webOnly: false
+    },
+    {
+        imageUrl: "https://images.credly.com/images/6726e724-5ce8-477e-93f5-6b39d6933273/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Kusto Detective Agency - 2022",
+        title: "Kusto Detective Agency - 2022",
+        webOnly: false
+    },
+    {
+        imageUrl: "https://images.credly.com/images/e7522dc8-886b-4a5b-9436-535e1adaa5c5/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Kusto Detective Agency - S1E4",
+        title: "Kusto Detective Agency - S1E4",
+        webOnly: true
     },
     {
         imageUrl: "https://images.credly.com/images/6c7fb568-a3cb-4868-9563-34c31ba3e347/Valuable-Contributor-Silver.png",
