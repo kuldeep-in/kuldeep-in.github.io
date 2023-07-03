@@ -1,6 +1,6 @@
 @font-face {
     font-family: "MyFont01";
-    src: url("/font/MyriadRegular.ttf") format("truetype");
+    src: url("font/MyriadRegular.ttf") format("truetype");
 }
 
 :root {
@@ -206,8 +206,8 @@ li {
 
 .sidebar .nav {
     padding: 20px 30px;
-     /*background: var(--bgColor2) none repeat scroll 0 0;*/ 
-    padding: 20px 10px;
+    /*background: var(--bgColor2) none repeat scroll 0 0;*/
+    padding: 20px 5px;
 }
 
 .toggle-btn {
@@ -279,7 +279,8 @@ li {
     }
 
 .sidebar .nav li {
-    font: 600 18px "Titillium Web","Montserrat",serif;
+    /* font: 600 18px "Titillium Web","Montserrat",serif; */
+    font: 400 18px "MyFont01",open Calibri,sans,sans-serif;
     padding: 10px 0;
 }
 
@@ -291,13 +292,29 @@ li {
         transition: all 0.1s linear 0s;
     }
 
-        .sidebar .nav li a:hover, .sidebar .nav li.active a {
+        .sidebar .nav li.active {
             color: var(--fontColor4Green);
             opacity: unset;
             background: var(--bgColor3);
-            padding: 15px;
+            /*padding: 15px;*/
             border-radius:10px;
         }
+
+            .sidebar .nav li a:hover, .sidebar .nav li.active a {
+                color: var(--fontColor4Green);
+                opacity: unset;
+                /*background: var(--bgColor3);*/
+                /*padding: 15px;*/
+                /*border-radius:10px;*/
+            }
+
+            /*.sidebar .nav li.active a {
+                color: var(--fontColor4Green);
+                opacity: unset;*/
+                /*background: var(--bgColor3);*/
+                /*padding: 15px;*/
+                /*border-radius: 10px;*/
+            /*}*/
 
 .about-background {
     /*margin-bottom: -50px;*/
