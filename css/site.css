@@ -1150,7 +1150,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
     }
 
 .left-social {
-    display:none;
+    /*display:none;*/
     padding:10px;
 }
 

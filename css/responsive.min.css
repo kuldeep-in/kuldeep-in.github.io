@@ -3,7 +3,10 @@ Small sm ?576px
 Medium md ?768px
 Large lg ?992px
 Extra large xl ?1200px
-Extra extra large xxl ?1400px*/
+Extra extra large xxl ?1400px
+
+    USE @media only max-width)
+*/
 
 /*M*/
 @media only screen and (min-width: 768px) {
@@ -118,17 +121,14 @@ Extra extra large xxl ?1400px*/
         width: 5.5em;
         padding: 5px;
     }
-
-    .webOnly {
-        display: none;
-    }
 }
 
 /*Small*/
 @media screen and (max-width: 767px) {
-    /*body {
-        background-color: #fff;
-    }*/
+
+    .webOnly {
+        display: none;
+    }
 
     .company-pic {
         border-radius: 10px;
@@ -185,10 +185,6 @@ Extra extra large xxl ?1400px*/
 
     .fixed-right-socials {
         display: none;
-    }
-
-    .left-social {
-        display: block;
     }
 
     .menu {
