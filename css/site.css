@@ -279,7 +279,6 @@ li {
     }
 
 .sidebar .nav li {
-    /* font: 600 18px "Titillium Web","Montserrat",serif; */
     font: 400 18px "MyFont01",open Calibri,sans,sans-serif;
     padding: 10px 0;
 }
@@ -307,14 +306,6 @@ li {
                 /*padding: 15px;*/
                 /*border-radius:10px;*/
             }
-
-            /*.sidebar .nav li.active a {
-                color: var(--fontColor4Green);
-                opacity: unset;*/
-                /*background: var(--bgColor3);*/
-                /*padding: 15px;*/
-                /*border-radius: 10px;*/
-            /*}*/
 
 .about-background {
     /*margin-bottom: -50px;*/
