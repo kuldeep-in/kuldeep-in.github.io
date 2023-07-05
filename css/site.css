@@ -208,7 +208,7 @@ li {
 .sidebar .nav {
     padding: 20px 30px;
     /*background: var(--bgColor2) none repeat scroll 0 0;*/
-    padding: 20px 5px;
+    padding: 15px 15px;
 }
 
 .toggle-btn {

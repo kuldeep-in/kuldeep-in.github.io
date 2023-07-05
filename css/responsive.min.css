@@ -197,7 +197,7 @@ Extra extra large xxl ?1400px
         left: 0;
         opacity: 0;
         position: absolute;
-        top: 60px;
+        top: 50px;
         transform: translateY(-10px);
         transition: all 0.3s ease-out 0s;
         visibility: hidden;
@@ -206,7 +206,7 @@ Extra extra large xxl ?1400px
     }
 
     .show-nav {
-        opacity: 1;
+        opacity: 0.95;
         transform: translateY(0px);
         visibility: visible;
     }
