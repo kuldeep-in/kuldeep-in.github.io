@@ -153,7 +153,7 @@ Extra extra large xxl ?1400px
         background: var(--buttonColor1);
         font-size: 1em;
         padding: 10px 32px;
-        margin-top:30px;
+        margin-top: 30px;
     }
 
     .section-title h2 i {
@@ -281,12 +281,12 @@ Extra extra large xxl ?1400px
         background-color: var(--bgColor3);
     }
 
+        /*border: 0;*/
+        /*border-radius: 5px;*/
+        /*display: inline-block;*/
+        /*position: relative;*/
+        /*overflow: hidden;*/
     .badgeCard {
-        border: 0;
-        border-radius: 5px;
-        display: inline-block;
-        position: relative;
-        overflow: hidden;
         width: 31%;
         margin-bottom: 10px;
         box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
