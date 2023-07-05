@@ -1039,7 +1039,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
     color: var(--fontColor1);
     background: var(--bgColor3);
     font-size: 1em;
-    padding: 6px 16px;
+    padding: .5em .2em;
     box-shadow: 1px 1px 4px rgba(230, 230, 230);
 }
 

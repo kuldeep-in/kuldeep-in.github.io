@@ -80,6 +80,11 @@ Extra extra large xxl ?1400px
     .badgeCard {
         width: 13rem;
     }
+
+    .downloadResume {
+        padding: .5em 1.5em;
+        /*margin-top: 30px;*/
+    }
 }
 
 /*XXL*/
@@ -152,7 +157,7 @@ Extra extra large xxl ?1400px
         /*width: 200px;*/
         background: var(--buttonColor1);
         font-size: 1em;
-        padding: 10px 32px;
+        padding: .5em 2em;
         margin-top: 30px;
     }
 
@@ -265,10 +270,6 @@ Extra extra large xxl ?1400px
     .resumeWrapper {
         padding: 0;
         margin-left: 0;
-    }
-
-    .card-body {
-        display: none;
     }
 
     .line {

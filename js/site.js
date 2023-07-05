@@ -412,6 +412,7 @@ for (var j = 0; j < badgeObjects.length; j++) {
 
     var cardBody = document.createElement("div");
     cardBody.classList.add("card-body");
+    cardBody.classList.add("webOnly");
 
     var badgeTitle = document.createElement("p");
     badgeTitle.classList.add("badgeTitle");
@@ -426,7 +427,6 @@ for (var j = 0; j < badgeObjects.length; j++) {
     badgeCard.appendChild(cardBody);
 
     badgeContainer.appendChild(badgeCard);
-    //}
 }
 
 // Function to handle fallback image loading
