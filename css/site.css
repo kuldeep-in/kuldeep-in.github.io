@@ -12,6 +12,9 @@
     --fontColor3: #919191;
     --fontColor4Green: #62c2bc;
     --buttonColor1: #30686f;
+    --githubColor: #141618;
+    --twittorColor: #26A7DE;
+    --linkedinColor: #0A66C2;
 }
 
 a {
@@ -972,27 +975,27 @@ textarea {
 }
 
 .list-unstiled .fa-github {
-    background: var(--bgColor3) none repeat scroll 0 0;
+    background: var(--githubColor) none repeat scroll 0 0;
 }
 
 .left-social .fa-github {
-    background: var(--bgColor3) none repeat scroll 0 0;
+    background: var(--githubColor) none repeat scroll 0 0;
 }
 
 .list-unstiled .fa-twitter {
-    background: #3698A2 none repeat scroll 0 0;
+    background: var(--twittorColor) none repeat scroll 0 0;
 }
 
 .left-social .fa-twitter {
-    background: #3698A2 none repeat scroll 0 0;
+    background: var(--twittorColor) none repeat scroll 0 0;
 }
 
 .list-unstiled .fa-linkedin {
-    background: #097fc3 none repeat scroll 0 0;
+    background: var(--linkedinColor) none repeat scroll 0 0;
 }
 
 .left-social .fa-linkedin {
-    background: #097fc3 none repeat scroll 0 0;
+    background: var(--linkedinColor) none repeat scroll 0 0;
 }
 
 .list-unstiled .fa-instagram {
@@ -1035,12 +1038,13 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
 
 .downloadResume {
     cursor: pointer;
-    /*width: 200px;*/
     color: var(--fontColor1);
-    background: var(--bgColor3);
+    background: var(--bgColor1);
     font-size: 1em;
     padding: .5em .2em;
-    box-shadow: 1px 1px 4px rgba(230, 230, 230);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 15px rgba(230, 230, 230);
 }
 
     .downloadResume:focus {
@@ -1151,7 +1155,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
     }
 
         .left-social a i {
-            border-radius:20px;
+            border-radius: 20%;
             padding : 5px;
         }
 
