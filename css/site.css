@@ -22,7 +22,7 @@ a {
 }
 
     a:hover {
-        color: var(--fontColor1);
+        color: #ffffff;
     }
 
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
@@ -1041,7 +1041,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
     color: var(--fontColor1);
     background: var(--bgColor1);
     font-size: 1em;
-    padding: .5em .2em;
+    padding: .5em .5em;
     margin-top: 30px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 15px rgba(230, 230, 230);
