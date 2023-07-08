@@ -91,7 +91,7 @@ var skillsList = [
     { text: "Azure Automation" },
     { text: "Azure DevOps" },
     { text: "Power Platform" },
-    { text: "ower BI / Power Apps" }
+    { text: "Power BI / Power Apps" }
 ];
 
 // Technologies
