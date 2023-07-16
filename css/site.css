@@ -4,6 +4,8 @@
 }
 
 :root {
+    --font-family: "MyFont01", 'Titillium Web', sans-serif;
+
     --bgColor1: #0a1930;
     --bgColor2: #172b46;
     --bgColor3: #1d3658;
@@ -73,7 +75,10 @@ a {
 body {
     background-color: var(--bgColor1);
     color: var(--fontColor1);
-    font: 300 16px "MyFont01",open Calibri,sans,sans-serif;
+    /*font: 300 16px "MyFont01",open Calibri,sans,sans-serif;*/
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--font-family);
     letter-spacing: 0.5px;
     overflow-x: hidden;
 }
@@ -81,13 +86,13 @@ body {
 h1, h2 {
     letter-spacing: 1px;
     color: var(--fontColor4Green);
-    font-family: "MyFont01", 'Titillium Web', sans-serif;
+    font-family: var(--font-family);
 }
 
 h3, h4, h5 {
     margin: 0 0 10px;
     color: var(--fontColor1);
-    font-family: "MyFont01", 'Titillium Web', sans-serif;
+    font-family: var(--font-family);
 }
 
 h1 {
@@ -96,21 +101,24 @@ h1 {
 }
 
 h2 {
-    font: 200 38px "MyFont01","Titillium Web",serif;
+    font-size: 38px;
+    font-weight: 200;
 }
 
 h3 {
-    font: 900 16px "MyFont01","Titillium Web",serif;
+    font-size: 16px;
+    font-weight: 900;
     letter-spacing: 1.5px;
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: 900;
 }
 
 .portfolio-filter ul li, .sidebar .nav li, h4 {
     letter-spacing: 1px;
     /*text-transform: uppercase;*/
-}
-
-h4 {
-    font: 900 13px "MyFont01","Titillium Web",serif;
 }
 
 p {
