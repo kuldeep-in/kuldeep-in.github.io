@@ -212,6 +212,13 @@ var badgeObjects = [
         webOnly: false
     },
     {
+        imageUrl: "https://images.credly.com/images/79b22d1d-cb2d-471e-add7-bbe2e1672f61/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Kusto Detective Agency - S2E4",
+        title: "Kusto Detective Agency - S2E4",
+        webOnly: false
+    },
+    {
         imageUrl: "https://images.credly.com/images/27c40e7b-98b2-4312-b52c-4454f6c90c52/image.png",
         fallbackImageUrl: "images/Badges/Badge_Fallback.png",
         altText: "Kusto Detective Agency - S2E3",
@@ -245,6 +252,13 @@ var badgeObjects = [
         altText: "Kusto Detective Agency - 2022",
         title: "Kusto Detective Agency - 2022",
         webOnly: false
+    },
+    {
+        imageUrl: "https://images.credly.com/images/43b452c6-89f2-4649-bb84-19f3166a833e/image.png",
+        fallbackImageUrl: "images/Badges/Badge_Fallback.png",
+        altText: "Kusto Detective Agency - S1E5",
+        title: "Kusto Detective Agency - S1E5",
+        webOnly: true
     },
     {
         imageUrl: "https://images.credly.com/images/e7522dc8-886b-4a5b-9436-535e1adaa5c5/image.png",
@@ -446,7 +460,7 @@ var experienceList = [
     },
     {
         company: "Microsoft",
-        jobTitle: "Cloud Solution Architect",
+        jobTitle: "Cloud Solution Architect - Engineering",
         date: "July 2019 - May2022",
         location: "London, UK",
         imageSrc: "images/Company/3-msft.png"
