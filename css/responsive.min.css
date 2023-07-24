@@ -127,8 +127,6 @@ Extra extra large xxl ?1400px
 /*Medium*/
 @media screen and (max-width: 991px) {
     .company-pic {
-        border-radius: 10px;
-        width: 5.5em;
         padding: 5px;
     }
 }
@@ -141,8 +139,6 @@ Extra extra large xxl ?1400px
     }
 
     .company-pic {
-        border-radius: 10px;
-        width: 5.5em;
         padding: 5px;
     }
 
