@@ -3,12 +3,15 @@
 
 // Write your Javascript code.
 
-$(function () {
+$(document).ready(function () {
     "use strict";
+
+    // 1. Attach an event handler to the window's "load" event
     $(window).load(function () {
         $("body").addClass("loaded");
-    }),
-        $("body").scrollspy({ target: ".sidebar" });
+        $("body").scrollspy({ target: ".sidebar", offset: 50 });
+    });
+       // $("body").scrollspy({ target: ".sidebar" });
     var o = $("html,body");
     // $(".sidebar ul li a").on("click", function (a) {
     //     o.animate({ scrollTop: $(this.hash).offset().top }, 800, "easeInOutQuart"), a.preventDefault();
