@@ -13,9 +13,6 @@ $(document).ready(function () {
     });
        
     var o = $("html,body");
-    // $(".sidebar ul li a").on("click", function (a) {
-    //     o.animate({ scrollTop: $(this.hash).offset().top }, 800, "easeInOutQuart"), a.preventDefault();
-    // });
     var a = $(".nav"),
         e = $(".toggle-btn");
     e.on("click", function (o) {
