@@ -34,38 +34,6 @@ $(function () {
         $(window).on("load resize", function () {
             $(window).width() < 768 && (e.wrap('<div class="toggle-placeholder"></div>'), $(".toggle-placeholder").height(e.outerHeight()));
         });
-    // $("#mix-container").mixItUp(),
-    // $(".lightbox").magnificPopup({ type: "inline", fixedContentPos: !1, removalDelay: 100, closeBtnInside: !0, preloader: !1, mainClass: "mfp-fade" }),
-    // $("#testimonialSlider").owlCarousel({ loop: !0, items: 1, margin: 30, dotsSpeed: 500, autoplay: !0, autoplayHoverPause: !0, autoplayTimeout: 4e3, autoplaySpeed: 500 }),
-    // $("#contactform").on("submit", function (o) {
-    //     var a = $("#name").val(),
-    //         e = $("#email").val(),
-    //         s = $("#message").val();
-    //     "" == a && $("#name").css("border-color", "rgba(255, 0, 0, 0.5)"),
-    //         "" == e && $("#email").css("border-color", "rgba(255, 0, 0, 0.5)"),
-    //         "" == s
-    //             ? $("#message").css("border-color", "rgba(255, 0, 0, 0.5)")
-    //             : $.ajax({
-    //                   url: "contact_form.php",
-    //                   data: $(this).serialize(),
-    //                   type: "POST",
-    //                   success: function (o) {
-    //                       $("#success").show().fadeIn(1e3),
-    //                           $("#contactform").each(function () {
-    //                               this.reset();
-    //                           });
-    //                   },
-    //                   error: function (o) {
-    //                       $("#error").show().fadeIn(1e3);
-    //                   },
-    //               }),
-    //         o.preventDefault();
-    // });
-    // var s = "images/marker.png",
-    //     l = -37.812154,
-    //     t = 144.954619,
-    //     n = new GMaps({ el: "#map-canvas", lat: l, lng: t, zoom: 16, scrollwheel: !1 });
-    // n.addMarker({ lat: l, lng: t, icon: s });
 });
 
 var skillsList = [
