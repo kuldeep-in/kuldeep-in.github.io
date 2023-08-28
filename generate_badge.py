@@ -8,19 +8,16 @@ import aiohttp
 
 from github_stats import Stats
 
-
 ################################################################################
 # Helper Functions
 ################################################################################
-
 
 def generate_output_folder() -> None:
     """
     Create the output folder if it does not already exist
     """
-    if not os.path.isdir("generated"):
-        os.mkdir("generated")
-
+    if not os.path.isdir("svgBadges"):
+        os.mkdir("svgBadges")
 
 ################################################################################
 # Individual Image Generation Functions
@@ -30,9 +27,9 @@ def generate_output_folder() -> None:
 async def generate_overview(s: Stats) -> None:
     """
     Generate an SVG badge with summary statistics
-    :param s: Represents user's GitHub statistics
+    :param s: Represents badge statistics
     """
-    with open("templates/overview.svg", "r") as f:
+    with open("templates/badge.svg", "r") as f:
         output = f.read()
 
     output = re.sub("{{ name }}", await s.name, output)
@@ -73,12 +70,8 @@ async def main() -> None:
     excluded_langs = (
         {x.strip() for x in exclude_langs.split(",")} if exclude_langs else None
     )
-    # Convert a truthy value to a Boolean
-    raw_ignore_forked_repos = os.getenv("EXCLUDE_FORKED_REPOS")
-    ignore_forked_repos = (
-        not not raw_ignore_forked_repos
-        and raw_ignore_forked_repos.strip().lower() != "false"
-    )
+
+    
     async with aiohttp.ClientSession() as session:
         s = Stats(
             user,
