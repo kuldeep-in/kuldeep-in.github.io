@@ -64,7 +64,7 @@ def read_json_file(file_path):
 
 def main():
   # Read the JSON file.
-  data = read_json_file("https://raw.githubusercontent.com/kuldeepsingh-in/kuldeepsingh-in.github.io/main/badgeData.json")
+  data = read_json_file("badgeData.json")
   generate_output_folder()
 
   # Loop through the data and call the print_name_and_id function for each person.
