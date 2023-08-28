@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
+  #workflow_dispatch:
 
 permissions:
   contents: write
@@ -33,10 +33,10 @@ jobs:
     # Generate all statistics images
     - name: Generate images
       run: |
-        python3 --version
+        #python3 --version
         python3 generate_badge.py
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #env:
+      #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # Commit all changed files to the repository
     - name: Commit to the repo
