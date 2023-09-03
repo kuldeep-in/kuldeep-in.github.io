@@ -101,7 +101,7 @@
     "imageUrl": "https://images.credly.com/images/3c27bae0-76fa-4b69-b7ac-907b4dfcf382/image.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
     "altText": "OpenHack: Modern Data Warehousing",
-    "title": "OpenHack: Modern Data Warehousing",
+    "title": "OpenHack - Modern Data Warehousing",
     "webOnly": false
   },
   {
@@ -212,8 +212,8 @@
   {
     "imageUrl": "images/Badges/CosmosDB_Mentor.jpg",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Mentor: Azure Cosmos DB",
-    "title": "Mentor: Azure Cosmos DB",
+    "altText": "Mentor - Azure Cosmos DB",
+    "title": "Mentor - Azure Cosmos DB",
     "webOnly": true
   },
   {
@@ -288,8 +288,8 @@
   {
     "imageUrl": "https://images.credly.com/images/107e2eb6-f394-40eb-83d2-d8c9b7d34555/exam-az400-600x600.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "AZ-400: Designing and Implementing Microsoft DevOps Solutions",
-    "title": "AZ-400: Designing and Implementing Microsoft DevOps Solutions",
+    "altText": "AZ-400 Designing and Implementing Microsoft DevOps Solutions",
+    "title": "AZ-400 Designing and Implementing Microsoft DevOps Solutions",
     "webOnly": true
   },
   {
@@ -310,7 +310,7 @@
     "imageUrl": "images/Badges/adf.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
     "altText": "Accredited: Azure Data Factory",
-    "title": "Accredited: Azure Data Factory",
+    "title": "Accredited - Azure Data Factory",
     "webOnly": true
   }
 ]
