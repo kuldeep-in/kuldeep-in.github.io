@@ -32,8 +32,8 @@ def generate_overview(badgeItem) -> None:
     with open("templates/badge.svg", "r") as f:
         output = f.read()
 
-    output = re.sub("{{ name }}", badgeItem["title"], output)
-    #output = re.sub("{{ stars }}", f"{await s.stargazers:,}", output)
+    output = re.sub("{{ title }}", badgeItem["title"], output)
+    output = re.sub("{{ imageUrl }}", badgeItem["imageUrl"], output)
     #output = re.sub("{{ forks }}", f"{await s.forks:,}", output)
     #output = re.sub("{{ contributions }}", f"{await s.total_contributions:,}", output)
     #changed = (await s.lines_changed)[0] + (await s.lines_changed)[1]
