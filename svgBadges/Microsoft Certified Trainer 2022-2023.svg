@@ -122,10 +122,10 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
 
           <div class="badgeCard">
-            <img class="badge-img" src="https://images.credly.com/images/bb4156e4-c2e1-4399-b03c-af6feb7a6cc4/image.png" alt="{{ name }}" />
+            <img class="badge-img" src="https://images.credly.com/images/bb4156e4-c2e1-4399-b03c-af6feb7a6cc4/image.png" alt="Microsoft Certified Trainer 2022-2023" />
             <div class="line"></div>
             <div class="card-body webOnly">
-              <p class="badgeTitle">{{ name }}</p>
+              <p class="badgeTitle">Microsoft Certified Trainer 2022-2023</p>
             </div>
           </div>
               <!--<table>

@@ -122,10 +122,10 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
 
           <div class="badgeCard">
-            <img class="badge-img" src="https://images.credly.com/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png" alt="{{ name }}" />
+            <img class="badge-img" src="https://images.credly.com/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png" alt="DevOps Engineer Expert" />
             <div class="line"></div>
             <div class="card-body webOnly">
-              <p class="badgeTitle">{{ name }}</p>
+              <p class="badgeTitle">DevOps Engineer Expert</p>
             </div>
           </div>
               <!--<table>

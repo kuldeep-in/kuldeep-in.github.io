@@ -122,10 +122,10 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
 
           <div class="badgeCard">
-            <img class="badge-img" src="images/Badges/adf.png" alt="{{ name }}" />
+            <img class="badge-img" src="images/Badges/adf.png" alt="Accredited - Azure Data Factory" />
             <div class="line"></div>
             <div class="card-body webOnly">
-              <p class="badgeTitle">{{ name }}</p>
+              <p class="badgeTitle">Accredited - Azure Data Factory</p>
             </div>
           </div>
               <!--<table>

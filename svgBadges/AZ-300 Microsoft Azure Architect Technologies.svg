@@ -122,10 +122,10 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
 
           <div class="badgeCard">
-            <img class="badge-img" src="https://images.credly.com/images/c66ddfa8-4e9d-41e4-bf98-244a4d55a14e/exam-az300-600x600.png" alt="{{ name }}" />
+            <img class="badge-img" src="https://images.credly.com/images/c66ddfa8-4e9d-41e4-bf98-244a4d55a14e/exam-az300-600x600.png" alt="AZ-300 Microsoft Azure Architect Technologies" />
             <div class="line"></div>
             <div class="card-body webOnly">
-              <p class="badgeTitle">{{ name }}</p>
+              <p class="badgeTitle">AZ-300 Microsoft Azure Architect Technologies</p>
             </div>
           </div>
               <!--<table>

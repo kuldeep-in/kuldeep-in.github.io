@@ -122,10 +122,10 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
 
           <div class="badgeCard">
-            <img class="badge-img" src="https://images.credly.com/images/28c9f5d8-5dce-4ac7-ba72-68652b57648e/LODS_Classes_Delivered_Badges_Role-02.png" alt="{{ name }}" />
+            <img class="badge-img" src="https://images.credly.com/images/28c9f5d8-5dce-4ac7-ba72-68652b57648e/LODS_Classes_Delivered_Badges_Role-02.png" alt="Skillable - 10 Classes Delivered" />
             <div class="line"></div>
             <div class="card-body webOnly">
-              <p class="badgeTitle">{{ name }}</p>
+              <p class="badgeTitle">Skillable - 10 Classes Delivered</p>
             </div>
           </div>
               <!--<table>
