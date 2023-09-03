@@ -122,10 +122,10 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
 
           <div class="badgeCard">
-            <img class="badge-img" src="https://images.credly.com/images/3c27bae0-76fa-4b69-b7ac-907b4dfcf382/image.png" alt="{{ name }}" />
+            <img class="badge-img" src="https://images.credly.com/images/3c27bae0-76fa-4b69-b7ac-907b4dfcf382/image.png" alt="OpenHack - Modern Data Warehousing" />
             <div class="line"></div>
             <div class="card-body webOnly">
-              <p class="badgeTitle">{{ name }}</p>
+              <p class="badgeTitle">OpenHack - Modern Data Warehousing</p>
             </div>
           </div>
               <!--<table>

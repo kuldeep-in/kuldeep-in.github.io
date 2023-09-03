@@ -122,10 +122,10 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
 
           <div class="badgeCard">
-            <img class="badge-img" src="https://images.credly.com/images/27c40e7b-98b2-4312-b52c-4454f6c90c52/image.png" alt="{{ name }}" />
+            <img class="badge-img" src="https://images.credly.com/images/27c40e7b-98b2-4312-b52c-4454f6c90c52/image.png" alt="Kusto Detective Agency - S2E3" />
             <div class="line"></div>
             <div class="card-body webOnly">
-              <p class="badgeTitle">{{ name }}</p>
+              <p class="badgeTitle">Kusto Detective Agency - S2E3</p>
             </div>
           </div>
               <!--<table>

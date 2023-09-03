@@ -122,10 +122,10 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
 
           <div class="badgeCard">
-            <img class="badge-img" src="https://images.credly.com/images/01334c2e-86a5-49ee-8c11-2e12a482a122/Mentor-Gold.png" alt="{{ name }}" />
+            <img class="badge-img" src="https://images.credly.com/images/01334c2e-86a5-49ee-8c11-2e12a482a122/Mentor-Gold.png" alt="Mentor Gold" />
             <div class="line"></div>
             <div class="card-body webOnly">
-              <p class="badgeTitle">{{ name }}</p>
+              <p class="badgeTitle">Mentor Gold</p>
             </div>
           </div>
               <!--<table>

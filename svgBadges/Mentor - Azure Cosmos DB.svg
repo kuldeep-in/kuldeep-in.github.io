@@ -122,10 +122,10 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
 
           <div class="badgeCard">
-            <img class="badge-img" src="images/Badges/CosmosDB_Mentor.jpg" alt="{{ name }}" />
+            <img class="badge-img" src="images/Badges/CosmosDB_Mentor.jpg" alt="Mentor - Azure Cosmos DB" />
             <div class="line"></div>
             <div class="card-body webOnly">
-              <p class="badgeTitle">{{ name }}</p>
+              <p class="badgeTitle">Mentor - Azure Cosmos DB</p>
             </div>
           </div>
               <!--<table>
