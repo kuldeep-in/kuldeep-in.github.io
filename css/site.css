@@ -199,7 +199,7 @@ li {
 }
 
 .user-pic {
-    border-radius: 100%;
+    border-radius: 10%;
     width: 100%;
     margin-bottom: 1rem;
     padding-top: 1rem;
@@ -1043,14 +1043,18 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
 }
 /*
 -------------------------*/
+.visitorCount {
+    margin-top: 20px;
+    border-radius: 45%
+}
 
 .downloadResume {
     cursor: pointer;
     color: var(--fontColor1);
     background: var(--bgColor1);
     font-size: 1em;
-    padding: .5em .5em;
-    margin-top: 30px;
+    padding: .5em 1.5em;
+    margin-top: 20px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 15px rgba(230, 230, 230);
 }

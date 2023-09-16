@@ -114,14 +114,6 @@ Extra extra large xxl ?1400px
     .container {
         width: 1570px;
     }
-
-    /*.downloadResume {
-        cursor: pointer;*/
-    /*width: 200px;*/
-    /*background: var(--pColor1);
-        font-size: .8em;
-        padding: 6px 8px;
-    }*/
 }
 
 /*Medium*/
@@ -129,7 +121,14 @@ Extra extra large xxl ?1400px
     .company-pic {
         padding: 5px;
     }
-}
+
+    .visitorCount {
+        width: 105%;
+    }
+
+    .downloadResume {
+        padding: .2em 1.5em;
+    }
 
 /*Small*/
 @media screen and (max-width: 767px) {
@@ -158,6 +157,10 @@ Extra extra large xxl ?1400px
         padding: .5em 2.5em;
     }
 
+    .visitorCount {
+        width: 50%
+    }
+
     .section-title h2 i {
         font-size: 1.2em;
     }
@@ -177,7 +180,6 @@ Extra extra large xxl ?1400px
     }
 
     .user-pic {
-        border-radius: 230px;
         width: 40%;
     }
 
@@ -321,36 +323,3 @@ Extra extra large xxl ?1400px
                 padding: 4px;
             }
 }
-
-/*@media screen and (max-width: 1199px) {*/
-/*body {
-        background-color: #fff;
-    }*/
-
-/*.about-background, .mainContentBackground {
-        padding-right: 40px;
-    }*/
-
-/*.mainContentWrapper {
-        padding: 0;
-        margin-left: 24%;
-    }
-}*/
-
-/*@media screen and (max-width: 991px) {*/
-/*body {
-        background-color: #fff;
-    }*/
-
-/*.container {
-        padding: 0 20px;
-    }
-
-    .downloadResume {
-        cursor: pointer;*/
-/*width: 200px;*/
-/*background: var(--pColor1);
-        font-size: .8em;
-        padding: 6px 8px;
-    }
-}*/
