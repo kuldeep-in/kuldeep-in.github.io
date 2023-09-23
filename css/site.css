@@ -199,10 +199,13 @@ li {
 }
 
 .user-pic {
-    border-radius: 10%;
-    width: 100%;
-    margin-bottom: 1rem;
-    padding-top: 1rem;
+    border-radius: 50%;
+    margin-top: 1em;
+    width: 95%;
+    margin-left: 6px;
+/*    margin-right: auto;*/
+    padding: 0 !important;
+    background-color: var(--bgColor1);
 }
 
 .company-pic {
@@ -1054,7 +1057,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
     background: var(--bgColor1);
     font-size: 1em;
     padding: .5em 1.5em;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 15px rgba(230, 230, 230);
 }
