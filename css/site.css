@@ -1057,6 +1057,19 @@ textarea {
     transition: all 300ms ease 0s;
 }
 
+.left-social {
+    padding: 10px;
+}
+
+    .left-social a {
+        margin: 8px;
+    }
+
+        .left-social a i {
+            border-radius: 20%;
+            padding: 5px;
+        }
+
 .list-unstiled .fa-github {
     background: var(--githubColor) none repeat scroll 0 0;
 }
@@ -1208,20 +1221,6 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
     .badgeCard[data-background-color="green"] {
         background-color: #18ce0f;
     }
-
-.left-social {
-    /*display:none;*/
-    padding:10px;
-}
-
-    .left-social a {
-        margin:8px;
-    }
-
-        .left-social a i {
-            border-radius: 20%;
-            padding : 5px;
-        }
 
 .line {
     width: 80%;
