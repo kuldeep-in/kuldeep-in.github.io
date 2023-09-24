@@ -4,6 +4,7 @@
 // Write your Javascript code.
 
 var badgeObjects = "";
+var visitorCountJson = "";
 
 $(document).ready(function () {
     "use strict";
@@ -40,6 +41,8 @@ $(document).ready(function () {
 
     // URL of the JSON file
     const url = 'https://raw.githubusercontent.com/kuldeepsingh-in/kuldeepsingh-in.github.io/main/badgeData.json';
+    const statsURL = 'https://api.visitorbadge.io/api/status?path=https%3A%2F%2Fgithub.com%2Fkuldeepsingh-in%2Fkuldeepsingh-in'
+
     // Fetch the JSON data from the URL
     fetch(url)
         .then(response => {
@@ -51,7 +54,6 @@ $(document).ready(function () {
         .then(data => {
             // JSON data has been successfully parsed
             badgeObjects = data;
-           
             var badgeContainer = document.getElementById("dynamicBadges");
             // Loop to create the HTML structure dynamically
             for (var j = 0; j < badgeObjects.length; j++) {
@@ -88,6 +90,24 @@ $(document).ready(function () {
             }
         });
 
+    // Fetch visitor count from api
+    fetch(statsURL)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            // JSON data has been successfully parsed
+            visitorCountJson = data;
+            var badgeContainer = document.getElementById("dynamicBadges");
+            // Create visitor label
+            var countTet = 'Visitors: ' + ' ' + visitorCountJson.total.toLocaleString();
+            document.getElementById("visitorCount").innerHTML = countTet;
+            //window.alert(countTet);
+
+        });
 });
 
 var skillsList = [
