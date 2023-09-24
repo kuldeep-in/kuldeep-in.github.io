@@ -275,12 +275,17 @@ li {
     padding: 5px;
 }
 
+.imgDiv {
+    text-align: center;
+    margin-top: .6em;
+}
+
 .user-pic {
     border-radius: 50%;
-    margin-top: 1em;
+    
     width: 95%;
-    margin-left: 6px;
-/*    margin-right: auto;*/
+    /*margin-left: 6px;*/
+    /*    margin-right: auto;*/
     padding: 0 !important;
     background-color: var(--bgColor1);
 }

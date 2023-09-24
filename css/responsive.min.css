@@ -122,9 +122,9 @@ Extra extra large xxl ?1400px
         padding: 5px;
     }
 
-    .visitorCount {
+/*    .visitorCount {
         width: 105%;
-    }
+    }*/
 
     .downloadResume {
         padding: .2em 1.5em;
@@ -158,7 +158,7 @@ Extra extra large xxl ?1400px
     }
 
     .visitorCount {
-        width: 50%
+        /*width: 50%;*/
     }
 
     .section-title h2 i {
@@ -180,8 +180,15 @@ Extra extra large xxl ?1400px
     }
 
     .user-pic {
-        width: 35%;
+        /*width: 35%;
+        margin-bottom: 8px;*/
+    }
+
+    .imgDiv {
+        text-align: left;
+        width: 30%;
         margin-bottom: 8px;
+        float:left
     }
 
     .fixed-left-contact, .right-br, .left-br {
