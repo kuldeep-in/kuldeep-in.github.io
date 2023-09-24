@@ -6,6 +6,35 @@
 var badgeObjects = "";
 var visitorCountJson = "";
 
+jQuery(document).ready(function ($) {
+    var alterClass = function () {
+        var ww = document.body.clientWidth;
+        if (ww < 580) {
+            // Get the div
+            const div = document.getElementById("left-social");
+
+            // Get all anchor tags inside the div 
+            const anchors = div.getElementsByTagName("a");
+
+            // Loop through the anchors
+            for (let i = 0; i < anchors.length; i++) {
+
+                // Get the i tag inside
+                const icon = anchors[i].getElementsByTagName("i")[0];
+
+                // Remove the class
+                icon.classList.remove("fa-2x");
+
+            }
+        };
+    };
+    $(window).resize(function () {
+        alterClass();
+    });
+    //Fire it when the page first loads:
+    alterClass();
+});
+
 $(document).ready(function () {
     "use strict";
 

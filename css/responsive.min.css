@@ -317,4 +317,18 @@ Extra extra large xxl ?1400px
         width: 4.5em;
         padding: 5px;
     }
+
+    .left-social {
+        padding: 10px 0;
+    }
+
+        .left-social a {
+            margin: 4px;
+        }
+
+            .left-social a i {
+                border-radius: 20%;
+                padding: 5px;
+            }
+
 }
