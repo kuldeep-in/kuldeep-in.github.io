@@ -1142,12 +1142,12 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
 
 .skill-label {
     border: 0;
-    padding:10px;
+    padding: 8px;
     border-radius: .8rem;
     display: inline-block;
     position: relative;
     overflow: hidden;
-    margin-bottom: 7px;
+    margin-bottom: 4px;
     margin-right: 8px;
     font-weight:400;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);

@@ -122,16 +122,22 @@ Extra extra large xxl ?1400px
         padding: 5px;
     }
 
-/*    .visitorCount {
+    /*    .visitorCount {
         width: 105%;
     }*/
 
     .downloadResume {
         padding: .2em 1.5em;
     }
+}
 
 /*Small*/
 @media screen and (max-width: 767px) {
+
+    .skill-label {
+    padding: 6px;
+    margin-bottom: 0;
+    }
 
     .webOnly {
         display: none;
@@ -188,7 +194,7 @@ Extra extra large xxl ?1400px
         text-align: left;
         width: 30%;
         margin-bottom: 8px;
-        float:left
+        float: left
     }
 
     .fixed-left-contact, .right-br, .left-br {
@@ -273,56 +279,42 @@ Extra extra large xxl ?1400px
 }
 
 /*X Small*/
-    @media screen and (max-width: 580px) {
-        .resumeWrapper {
-            padding: 0;
-            margin-left: 0;
-        }
+@media screen and (max-width: 580px) {
+    .resumeWrapper {
+        padding: 0;
+        margin-left: 0;
+    }
 
-        .line {
-            width: 70%;
-        }
+    .line {
+        width: 70%;
+    }
 
-        .resume-box {
-            margin-bottom: 30px;
-            border-radius: 6px;
-            background-color: var(--bgColor3);
-        }
+    .resume-box {
+        margin-bottom: 30px;
+        border-radius: 6px;
+        background-color: var(--bgColor3);
+    }
 
-        .badgeCard {
-            width: 7em;
-            margin-bottom: .5em;
-            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-        }
+    .badgeCard {
+        width: 7em;
+        margin-bottom: .5em;
+        box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    }
 
-        .certCard {
-            border: 0;
-            border-radius: 5px;
-            display: inline-block;
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-            margin-bottom: 25px;
-            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-        }
+    .certCard {
+        border: 0;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: 25px;
+        box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    }
 
-        .company-pic {
-            border-radius: 10px;
-            width: 4.5em;
-            padding: 5px;
-        }
-
-/*        .left-social {
-            padding: 10px 0;
-        }
-
-            .left-social a {
-                margin: 4px;
-            }
-
-                .left-social a i {
-                    border-radius: 20%;
-                    padding: 4px;
-                }*/
+    .company-pic {
+        border-radius: 10px;
+        width: 4.5em;
+        padding: 5px;
     }
 }
