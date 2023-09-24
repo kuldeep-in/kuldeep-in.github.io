@@ -1070,6 +1070,45 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
         color:var(--fontColor3);
     }
 
+.btn-Active {
+    cursor: pointer;
+    color: var(--fontColor1);
+    background: var(--bgColor1);
+    font-size: 1em;
+    padding: .5em 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 15px rgba(230, 230, 230);
+    /*float:right;*/
+}
+
+    .btn-Active:focus {
+        color: var(--fontColor1);
+    }
+
+    .btn-Active:hover {
+        color: var(--fontColor3);
+    }
+
+.btn-InActive {
+    cursor: pointer;
+    color: var(--fontColor1);
+    background: var(--bgColor1);
+    font-size: 1em;
+    padding: .5em 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*float: right;*/
+}
+
+    .btn-InActive:focus {
+        color: var(--fontColor1);
+    }
+
+    .btn-InActive:hover {
+        color: var(--fontColor3);
+    }
+
 .content-box {
     background: var(--bgColor2);
     padding: 20px;
