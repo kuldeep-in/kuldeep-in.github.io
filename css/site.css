@@ -292,7 +292,7 @@ li {
 
 .company-pic {
     border-radius: 10px;
-    width: 6em;
+    width: 5em;
     padding:5px;
 }
 
@@ -647,7 +647,7 @@ button.mfp-close:hover {
 
 .resume-box {
     padding:10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 15px;
     background-color: var(--bgColor3);
 }

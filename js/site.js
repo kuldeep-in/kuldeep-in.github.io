@@ -186,15 +186,15 @@ function createFallbackImageHandler(fallbackImageUrl) {
 var experienceList = [
     {
         company: "PwC UK",
-        jobTitle: "Manager / Cloud Solution Architect",
-        date: "June 2022 - Present",
+        jobTitle: "Cloud Solution Architect / Manager",
+        date: "June 2022 - Nov 2023",
         location: "London, UK",
         imageSrc: "images/Company/4-pwc.png"
     },
     {
         company: "Microsoft",
         jobTitle: "Cloud Solution Architect - Engineering",
-        date: "July 2019 - May2022",
+        date: "July 2019 - May 2022",
         location: "London, UK",
         imageSrc: "images/Company/3-msft.png"
     },
