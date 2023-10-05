@@ -1,0 +1,111 @@
+/*X-Small None <576px
+Small sm ?576px
+Medium md ?768px
+Large lg ?992px
+Extra large xl ?1200px
+Extra extra large xxl ?1400px
+
+*/
+
+/* Dessktop Greated than 576px*/
+@media (min-width: 576px) {
+    body {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .webOnly {
+        display: inline-block;
+    }
+
+    .navbar-user-pic {
+        display:none;
+    }
+
+    .h-sm-100 {
+        height: 100%;
+    }
+
+    .user-pic {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .right-col {
+        width: 75%;
+        /*margin-left: 25%*/
+    }
+
+    .left-col {
+        display: inline-block;
+        position: fixed;
+        height: calc(100vh - 100px);
+        width: 26%;
+    }
+
+    .left-nav-item {
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+
+    .user-pic {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .left-col {
+        display: inline-block;
+        position: fixed;
+        height: calc(100vh - 100px);
+        width: 22%;
+    }
+
+    .badgeCard {
+        width: 10rem;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+
+    .user-pic {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .left-col {
+        display: inline-block;
+        position: fixed;
+        height: calc(100vh - 100px);
+        width: 22%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .user-pic {
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .left-col {
+        display: inline-block;
+        position: fixed;
+        height: calc(100vh - 100px);
+        width: 20%;
+    }
+}

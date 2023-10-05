@@ -1,0 +1,207 @@
+
+:root {
+    --font-family: "MyFont01", 'Titillium Web', sans-serif;
+    --bgColor1: #0a1930;
+    --bgColor2: #172b46;
+    --bgColor3: #1d3658;
+    --fontColor1: #cadaf8;
+    --fontColor2: #BFBFBF;
+    --fontColor3: #919191;
+    --fontColor4Green: #62c2bc;
+    --buttonColor1: #30686f;
+    --githubColor: #141618;
+    --twittorColor: #26A7DE;
+    --linkedinColor: #0A66C2;
+    --color-gray-9: #0d1117;
+    --color-gray-8: #161b22;
+    --color-gray-7: #21262d;
+    --color-gray-6: #30363d;
+    --color-gray-5: #484f58;
+    --color-blue-text-1: #2F81F7;
+}
+
+body {
+    position: relative !important; /* required */
+    padding-top: 70px; /* prevent content to go underneath the fixed navbar */
+    background-color: var(--color-gray-8) !important;
+    /*margin-left: 6% !important;
+    margin-right: 4% !important;*/
+}
+
+.navbar-user-pic {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-gray-6) !important;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+}
+
+.user-pic {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-gray-6) !important;
+}
+
+.user-pic-div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nav a.active {
+    color: var(--fontColor1) !important;
+    background-color: var(--color-gray-7) !important;
+}
+
+.nav a {
+    color: var(--color-blue-text-1) !important;
+}
+
+.right-col {
+    width: 100%;
+    margin-left: 0;
+}
+
+.left-col {
+    display: none;
+}
+
+.btn-downloadResume {
+    width: 95%;
+    background: var(--color-gray-7);
+    border-radius: .8em;
+    font-size: 1em;
+    padding: .5rem 0;
+    margin: 1rem .5rem;
+    box-shadow: 1px 1px 15px rgba(230, 230, 230);
+}
+
+    .btn-downloadResume:focus {
+        background: var(--color-gray-6);
+    }
+
+    .btn-downloadResume:hover {
+        background: var(--color-gray-6);
+    }
+
+
+.section-title {
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+    .section-title span {
+        color: #969696;
+        font: 500 14px "MyFont01", open sans,sans-serif;
+        padding-right: 10px;
+    }
+
+    .section-title h2 i {
+        font-size: 1.5em;
+    }
+
+.content-box {
+    background: var(--color-gray-7);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.skill-label {
+    border: 0;
+    padding: 8px;
+    border-radius: .8rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4px;
+    margin-right: 8px;
+    font-weight: 400;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    background-color: var(--bgColor3);
+}
+
+.certCard {
+    border: 0;
+    background-color: var(--color-gray-6);
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 48%;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+    .certCard .card-body {
+        min-height: 75px;
+        margin-top: 5px;
+    }
+
+.badge-img {
+    width: 95%;
+    padding: 5px;
+}
+
+.badgeTitle {
+    overflow: hidden;
+    line-height: 1.4em;
+    max-height: 2.8em;
+}
+
+.badgeCard {
+    border: 0;
+    background-color: var(--color-gray-6);
+    font-size: 1.3rem;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 7rem;
+    margin-bottom: 16px;
+    margin-right: 8px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+    .badgeCard .card-body {
+        min-height: 2.8em;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .badgeCard .card-body-pp {
+        min-height: 50px;
+    }
+
+.line {
+    width: 80%;
+    height: 0;
+    border: 1px solid var(--fontColor1);
+    margin: 0;
+    display: inline-block;
+}
+
+
+.webOnly {
+    display: none;
+}
+
+
+.resume-box {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: var(--color-gray-6);
+}
+
+.company-pic {
+    border-radius: 10px;
+    width: 4.5em;
+    padding: 5px;
+}
+
+.cert-img {
+    width: 90%;
+    padding: 5px;
+}
