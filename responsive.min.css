@@ -61,6 +61,10 @@ Extra extra large xxl ?1400px
     .left-nav-item {
         padding-right: 0;
     }
+
+    .certCard {
+        width: 48%;
+    }
 }
 
 @media (min-width: 768px) {

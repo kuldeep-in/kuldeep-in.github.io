@@ -146,12 +146,12 @@ for (var i = 0; i < experienceList.length; i++) {
     col2.className = "col-xs-9 col-sm-9 col-md-6 text-left";
 
     // Create the heading element
-    var heading = document.createElement("h5");
+    var heading = document.createElement("h4");
     //heading.className = "";
     heading.textContent = experienceList[i].company;
 
     // Create the span element for job title
-    var jobTitle = document.createElement("h3");
+    var jobTitle = document.createElement("h5");
     //jobTitle.className = "";
     jobTitle.textContent = experienceList[i].jobTitle;
 
