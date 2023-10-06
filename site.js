@@ -100,13 +100,14 @@ function fetchStatus() {
         });
 }
 
-window.addEventListener('load', function () {
-    // Your document is loaded.
-    var fetchInterval = 50000; // 5 seconds.
+window.addEventListener('load', fetchStatus);
+//window.addEventListener('load', function () {
+//    // Your document is loaded.
+//    var fetchInterval = 50000; // 5 seconds.
 
-    // Invoke the request every 5 seconds.
-    setInterval(fetchStatus, fetchInterval);
-});
+//    // Invoke the request every 5 seconds.
+//    setInterval(fetchStatus, fetchInterval);
+//});
 
 // Technologies
 // Get the container element
