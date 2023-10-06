@@ -12,6 +12,11 @@ Extra extra large xxl ?1400px
     body {
         margin-left: 0 !important;
         margin-right: 0 !important;
+        padding-top: 1rem;
+    }
+
+    #myNavbar {
+        display: none;
     }
 
     .webOnly {

@@ -22,7 +22,7 @@
 
 body {
     position: relative !important; /* required */
-    padding-top: 70px; /* prevent content to go underneath the fixed navbar */
+    padding-top: 2.5rem; /* prevent content to go underneath the fixed navbar */
     background-color: var(--color-gray-8) !important;
     /*margin-left: 6% !important;
     margin-right: 4% !important;*/
