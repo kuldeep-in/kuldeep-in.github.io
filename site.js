@@ -102,7 +102,7 @@ function fetchStatus() {
 
 window.addEventListener('load', function () {
     // Your document is loaded.
-    var fetchInterval = 5000; // 5 seconds.
+    var fetchInterval = 50000; // 5 seconds.
 
     // Invoke the request every 5 seconds.
     setInterval(fetchStatus, fetchInterval);
