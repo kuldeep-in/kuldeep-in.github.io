@@ -94,6 +94,7 @@ fetch(statsURL)
         // Create visitor label
         var countTet = visitorCountJson.total.toLocaleString();
         document.getElementById("visitorCount").innerHTML = countTet;
+        document.getElementById("visitorCount1").innerHTML = countTet;
         //window.alert(countTet);
     });
 

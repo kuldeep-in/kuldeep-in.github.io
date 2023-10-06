@@ -22,7 +22,7 @@
 
 body {
     position: relative !important; /* required */
-    padding-top: 2.5rem; /* prevent content to go underneath the fixed navbar */
+    padding-top: 4rem; /* prevent content to go underneath the fixed navbar */
     background-color: var(--color-gray-8) !important;
     /*margin-left: 6% !important;
     margin-right: 4% !important;*/
@@ -39,14 +39,13 @@ body {
 }
 
 .user-pic {
-    width: 40px;
-    height: 40px;
+    width: 9rem;
+    height: 9rem;
     background-color: var(--color-gray-6) !important;
 }
 
 .user-pic-div {
     text-align: center;
-    margin-bottom: 10px;
 }
 
 .nav a.active {

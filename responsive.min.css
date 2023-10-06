@@ -15,16 +15,20 @@ Extra extra large xxl ?1400px
         padding-top: 1rem;
     }
 
-    #myNavbar {
-        display: none;
-    }
-
     .webOnly {
         display: inline-block;
     }
 
+    #myNavbar {
+        display: none;
+    }
+
+    .mobileOnly {
+        display: none;
+    }
+
     .navbar-user-pic {
-        display:none;
+        display: none;
     }
 
     .h-sm-100 {
