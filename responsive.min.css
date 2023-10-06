@@ -82,7 +82,7 @@ Extra extra large xxl ?1400px
     }
 
     .badgeCard {
-        width: 10rem;
+        width: 23%;
     }
 }
 
@@ -103,6 +103,10 @@ Extra extra large xxl ?1400px
         height: calc(100vh - 100px);
         width: 22%;
         padding-left: 2rem;
+    }
+
+    .badgeCard {
+        width: 18%;
     }
 }
 

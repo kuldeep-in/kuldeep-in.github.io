@@ -226,6 +226,7 @@ fetch(url)
 
             var lineDiv = document.createElement("div");
             lineDiv.classList.add("line");
+            lineDiv.classList.add("webOnly");
 
             cardBody.appendChild(badgeTitle);
             badgeCard.appendChild(badgeImage);
