@@ -106,7 +106,7 @@ body {
 
 .content-box {
     background: var(--color-gray-7);
-    padding: 20px;
+    padding: 1rem .5rem;
     border-radius: 15px;
 }
 
