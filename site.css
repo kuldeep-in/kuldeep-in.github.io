@@ -117,8 +117,8 @@ body {
     margin-bottom: 4px;
     margin-right: 8px;
     font-weight: 400;
-    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-    background-color: var(--bgColor3);
+    box-shadow: 0px 5px 25px 0px rgb(22 27 34);
+    background-color: var(--color-gray-6);
 }
 
 .certCard {
