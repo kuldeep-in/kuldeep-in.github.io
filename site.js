@@ -81,22 +81,32 @@ function createFallbackImageHandler(fallbackImageUrl) {
 //})
 
 // Fetch visitor count from api
-fetch(statsURL)
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
-        }
-        return response.json();
-    })
-    .then(data => {
-        // JSON data has been successfully parsed
-        visitorCountJson = data;
-        // Create visitor label
-        var countTet = visitorCountJson.total.toLocaleString();
-        document.getElementById("visitorCount").innerHTML = countTet;
-        document.getElementById("visitorCount1").innerHTML = countTet;
-        //window.alert(countTet);
-    });
+function fetchStatus() {
+    fetch(statsURL)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            // JSON data has been successfully parsed
+            visitorCountJson = data;
+            // Create visitor label
+            var countTet = visitorCountJson.total.toLocaleString();
+            document.getElementById("visitorCount").innerHTML = countTet;
+            document.getElementById("visitorCount1").innerHTML = countTet;
+            //window.alert(countTet);
+        });
+}
+
+window.addEventListener('load', function () {
+    // Your document is loaded.
+    var fetchInterval = 5000; // 5 seconds.
+
+    // Invoke the request every 5 seconds.
+    setInterval(fetchStatus, fetchInterval);
+});
 
 // Technologies
 // Get the container element
