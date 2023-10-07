@@ -1,2 +1,2 @@
-# https://kuldeepsingh-in.github.io
-Profile Repository
+# https://kuldeep-in.github.io/
+# https://kdlearn.com/
