@@ -151,6 +151,8 @@ body {
     overflow: hidden;
     line-height: 1.4em;
     max-height: 2.8em;
+    margin-bottom: .5rem;
+    font-size: .8rem;
 }
 
 .badgeCard {
@@ -168,7 +170,7 @@ body {
 
     .badgeCard .card-body {
         min-height: 2.8em;
-        margin-top: 5px;
+        /*margin-top: 5px;*/
     }
 
     .badgeCard .card-body-pp {
