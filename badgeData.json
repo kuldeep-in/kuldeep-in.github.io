@@ -105,6 +105,34 @@
     "webOnly": false
   },
   {
+    "imageUrl": "https://images.credly.com/images/8aa171e5-784a-4a9e-b1ab-c3b818ea136a/image.png",
+    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+    "altText": "Kusto Detective Gold Star!",
+    "title": "Kusto Detective Gold Star!",
+    "webOnly": false
+  },
+  {
+    "imageUrl": "https://images.credly.com/images/86ba2d7a-85fb-4331-bf1d-2e7b8ec32220/image.png",
+    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+    "altText": "Kusto S2E9 - Senior Detective Agent",
+    "title": "Kusto S2E9 - Senior Detective Agent",
+    "webOnly": false
+  },
+  {
+    "imageUrl": "https://images.credly.com/images/1c1c412b-926c-4ff8-8e42-62336e76e871/image.png",
+    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+    "altText": "Kusto S2E8 - Special Detective Agent II",
+    "title": "Kusto S2E8 - Special Detective Agent II",
+    "webOnly": false
+  },
+  {
+    "imageUrl": "https://images.credly.com/images/b096f449-fce1-42d7-be93-e6e1e32e171b/image.png",
+    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+    "altText": "Kusto S2E7 - Special Detective Agent",
+    "title": "Kusto S2E7 - Special Detective Agent",
+    "webOnly": false
+  },
+  {
     "imageUrl": "https://images.credly.com/images/8db7e105-c19e-4df8-87a4-ed1d5ccbc32b/image.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
     "altText": "Kusto Detective Agency - S2E6",
