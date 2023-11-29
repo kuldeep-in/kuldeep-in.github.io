@@ -158,14 +158,14 @@
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
     "altText": "Kusto S2E3 - Kusto Detective III",
     "title": "Kusto S2E3 - Kusto Detective III",
-    "webOnly": false
+    "webOnly": true
   },
   {
     "imageUrl": "https://images.credly.com/images/8fc10fee-7b05-4b86-8504-01abf614bcac/image.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
     "altText": "Kusto S2E2 - Kusto Detective II",
     "title": "Kusto S2E2 - Kusto Detective II",
-    "webOnly": false
+    "webOnly": true
   },
   {
     "imageUrl": "https://images.credly.com/images/304d7409-3dd5-40b6-ab20-88d3ec012eb1/image.png",
@@ -269,7 +269,7 @@
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
     "altText": "Skillable - 25 Students Reached",
     "title": "Skillable - 25 Students Reached",
-    "webOnly": false
+    "webOnly": true
   },
   {
     "imageUrl": "https://images.credly.com/images/0db940b3-280d-4adc-a753-6c854c75bf33/LODS_Students_Reached_Badges_Role-04.png",
@@ -283,7 +283,7 @@
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
     "altText": "Skillable - 75 Students Reached",
     "title": "Skillable - 75 Students Reached",
-    "webOnly": false
+    "webOnly": true
   },
   {
     "imageUrl": "https://images.credly.com/images/f4ad1de8-5729-4760-8aa4-ab7a2bf55ea0/LODS_Students_Reached_Badges_Role-06.png",
