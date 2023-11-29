@@ -229,3 +229,45 @@ fetch(url)
             badgeContainer.appendChild(badgeCard);
         }
     });
+
+/*
+Removed Badges
+
+//{
+//  "imageUrl": "https://images.credly.com/images/2b47d3a8-9633-4a91-8c45-a58c84a070ac/LODS_Classes_Delivered_Badges_Role-01.png",
+//  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+//  "altText": "Skillable - First Class Delivered",
+//  "title": "Skillable - First Class Delivered",
+//  "webOnly": false
+//},
+//{
+//  "imageUrl": "https://images.credly.com/images/c66ddfa8-4e9d-41e4-bf98-244a4d55a14e/exam-az300-600x600.png",
+//  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+//  "altText": "AZ-300 Microsoft Azure Architect Technologies",
+//  "title": "AZ-300 Microsoft Azure Architect Technologies",
+//  "webOnly": true
+//},
+//{
+//  "imageUrl": "images/Badges/adf.png",
+//  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+//  "altText": "Accredited: Azure Data Factory",
+//  "title": "Accredited - Azure Data Factory",
+//  "webOnly": true
+//}
+
+//{
+//  "imageUrl": "https://images.credly.com/images/c4671de2-68f7-4219-952d-2e955e25f453/exam-dp201-600x600.png",
+//  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+//  "altText": "DP-201 Designing an Azure Data Solution",
+//  "title": "DP-201 Designing an Azure Data Solution",
+//  "webOnly": true
+//},
+//{
+//  "imageUrl": "https://images.credly.com/images/39062840-39ce-47d5-9847-77cb60ccf5e9/LODS_Students_Reached_Badges_Role-03.png",
+//  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+//  "altText": "Skillable - 25 Students Reached",
+//  "title": "Skillable - 25 Students Reached",
+//  "webOnly": true
+//},
+
+*/

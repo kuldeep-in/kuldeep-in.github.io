@@ -251,26 +251,12 @@
     "title": "Accessibility in Action",
     "webOnly": false
   },
-  //{
-  //  "imageUrl": "https://images.credly.com/images/2b47d3a8-9633-4a91-8c45-a58c84a070ac/LODS_Classes_Delivered_Badges_Role-01.png",
-  //  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-  //  "altText": "Skillable - First Class Delivered",
-  //  "title": "Skillable - First Class Delivered",
-  //  "webOnly": false
-  //},
   {
     "imageUrl": "https://images.credly.com/images/28c9f5d8-5dce-4ac7-ba72-68652b57648e/LODS_Classes_Delivered_Badges_Role-02.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
     "altText": "Skillable - 10 Classes Delivered",
     "title": "Skillable - 10 Classes Delivered"
   },
-  //{
-  //  "imageUrl": "https://images.credly.com/images/39062840-39ce-47d5-9847-77cb60ccf5e9/LODS_Students_Reached_Badges_Role-03.png",
-  //  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-  //  "altText": "Skillable - 25 Students Reached",
-  //  "title": "Skillable - 25 Students Reached",
-  //  "webOnly": true
-  //},
   {
     "imageUrl": "https://images.credly.com/images/0db940b3-280d-4adc-a753-6c854c75bf33/LODS_Students_Reached_Badges_Role-04.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
@@ -299,13 +285,6 @@
     "title": "Architecting Microsoft Azure Solutions",
     "webOnly": true
   },
-  //{
-  //  "imageUrl": "https://images.credly.com/images/c4671de2-68f7-4219-952d-2e955e25f453/exam-dp201-600x600.png",
-  //  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-  //  "altText": "DP-201 Designing an Azure Data Solution",
-  //  "title": "DP-201 Designing an Azure Data Solution",
-  //  "webOnly": true
-  //},
   {
     "imageUrl": "https://images.credly.com/images/af626bbe-ed13-472f-9e72-d4808474acb5/exam-dp200-600x600.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
@@ -327,18 +306,4 @@
     "title": "AZ-301 Microsoft Azure Architect Design",
     "webOnly": true
   }
-  //{
-  //  "imageUrl": "https://images.credly.com/images/c66ddfa8-4e9d-41e4-bf98-244a4d55a14e/exam-az300-600x600.png",
-  //  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-  //  "altText": "AZ-300 Microsoft Azure Architect Technologies",
-  //  "title": "AZ-300 Microsoft Azure Architect Technologies",
-  //  "webOnly": true
-  //},
-  //{
-  //  "imageUrl": "images/Badges/adf.png",
-  //  "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-  //  "altText": "Accredited: Azure Data Factory",
-  //  "title": "Accredited - Azure Data Factory",
-  //  "webOnly": true
-  //}
 ]
