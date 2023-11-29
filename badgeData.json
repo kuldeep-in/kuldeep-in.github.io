@@ -135,43 +135,43 @@
   {
     "imageUrl": "https://images.credly.com/images/8db7e105-c19e-4df8-87a4-ed1d5ccbc32b/image.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Agency - S2E6",
-    "title": "Kusto Detective Agency - S2E6",
+    "altText": "Kusto S2E6 - Principal Detective",
+    "title": "Kusto S2E6 - Principal Detective",
     "webOnly": false
   },
   {
     "imageUrl": "https://images.credly.com/images/2fb50859-656e-4390-b4ca-88bc2b619867/image.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Agency - S2E5",
-    "title": "Kusto Detective Agency - S2E5",
+    "altText": "Kusto S2E5 - Kusto Senior Detective II",
+    "title": "Kusto S2E5 - Kusto Senior Detective II",
     "webOnly": false
   },
   {
     "imageUrl": "https://images.credly.com/images/79b22d1d-cb2d-471e-add7-bbe2e1672f61/image.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Agency - S2E4",
-    "title": "Kusto Detective Agency - S2E4",
+    "altText": "Kusto S2E4 - Kusto Senior Detective",
+    "title": "Kusto S2E4 - Kusto Senior Detective",
     "webOnly": false
   },
   {
     "imageUrl": "https://images.credly.com/images/27c40e7b-98b2-4312-b52c-4454f6c90c52/image.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Agency - S2E3",
-    "title": "Kusto Detective Agency - S2E3",
+    "altText": "Kusto S2E3 - Kusto Detective III",
+    "title": "Kusto S2E3 - Kusto Detective III",
     "webOnly": false
   },
   {
     "imageUrl": "https://images.credly.com/images/8fc10fee-7b05-4b86-8504-01abf614bcac/image.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Agency - S2E2",
-    "title": "Kusto Detective Agency - S2E2",
+    "altText": "Kusto S2E2 - Kusto Detective II",
+    "title": "Kusto S2E2 - Kusto Detective II",
     "webOnly": false
   },
   {
     "imageUrl": "https://images.credly.com/images/304d7409-3dd5-40b6-ab20-88d3ec012eb1/image.png",
     "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Agency - S2E1",
-    "title": "Kusto Detective Agency - S2E1",
+    "altText": "Kusto S2E1 - Kusto Detective I",
+    "title": "Kusto S2E1 - Kusto Detective I",
     "webOnly": true
   },
   {
