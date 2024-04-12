@@ -28,23 +28,30 @@ var skillsList = [
 ];
 
 var experienceList = [
+     {
+        company: "Databricks",
+        jobTitle: "Solutions Architect",
+        date: "Dec 2023 - Present",
+        location: "London, UK",
+        imageSrc: "images/Company/3-msft.png"
+    },
     {
         company: "PwC UK",
-        jobTitle: "Cloud Solution Architect / Manager",
+        jobTitle: "Cloud Solutions Architect / Manager",
         date: "June 2022 - Nov 2023",
         location: "London, UK",
         imageSrc: "images/Company/4-pwc.png"
     },
     {
         company: "Microsoft",
-        jobTitle: "Cloud Solution Architect - Engineering",
+        jobTitle: "Cloud Solutions Architect - Engineering",
         date: "July 2019 - May 2022",
         location: "London, UK",
         imageSrc: "images/Company/3-msft.png"
     },
     {
         company: "Microsoft",
-        jobTitle: "Consultant",
+        jobTitle: "Cloud Consultant",
         date: "Jan 2016 - July 2019",
         location: "Hyderabad, India",
         imageSrc: "images/Company/3-msft.png"
