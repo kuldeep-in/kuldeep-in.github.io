@@ -141,28 +141,8 @@ $(document).ready(function () {
 
 var skillsList = [
 
-    { text: "Enterprise Application Architecture" },
-    { text: "Cloud / Digital transformation" },
-    { text: "Data transformation and migration" },
-    { text: "Project Management" },
-    { text: "Solution Design" },
-    { text: "Agile / Scrum" },
-    { text: "Microsoft Azure Cloud" },
-    { text: "Sustainability Cloud" },
-    { text: "Azure Web/ Compute" },
-    { text: "Azure SQL" },
-    { text: "Cosmos DB" },
-    { text: "Azure Storage" },
-    { text: "Azure Data Factory" },
-    { text: "Azure Synapse" },
-    { text: "Azure Databrick" },
-    { text: "Data Warehouse" },
-    { text: "Eventing and Messaging" },
-    { text: "Application Monitoring" },
-    { text: "Azure Automation" },
-    { text: "Azure DevOps" },
-    { text: "Power Platform" },
-    { text: "Power BI / Power Apps" }
+    { text: "This file is not in use" },
+    { text: "This file is not in use" }
 ];
 
 // Technologies
@@ -185,46 +165,11 @@ function createFallbackImageHandler(fallbackImageUrl) {
 
 var experienceList = [
     {
-        company: "Databricks",
-        jobTitle: "Solutions Architect",
+        company: "This file is not in use",
+        jobTitle: "File not in use",
         date: "Dec 2023 - Present",
         location: "London, UK",
         imageSrc: "images/Company/3-msft.png"
-    },
-    {
-        company: "PwC UK",
-        jobTitle: "Cloud Solutions Architect / Manager",
-        date: "June 2022 - Nov 2023",
-        location: "London, UK",
-        imageSrc: "images/Company/4-pwc.png"
-    },
-    {
-        company: "Microsoft",
-        jobTitle: "Cloud Solutions Architect - Engineering",
-        date: "July 2019 - May 2022",
-        location: "London, UK",
-        imageSrc: "images/Company/3-msft.png"
-    },
-    {
-        company: "Microsoft",
-        jobTitle: "Cloud Consultant",
-        date: "Jan 2016 - July 2019",
-        location: "Hyderabad, India",
-        imageSrc: "images/Company/3-msft.png"
-    },
-    {
-        company: "Aon Hewitt",
-        jobTitle: "Software Engineer",
-        date: "Aug 2015 - Jan 2016",
-        location: "Gurgoan, India",
-        imageSrc: "images/Company/2-aon.png"
-    },
-    {
-        company: "Icertis",
-        jobTitle: "Software Analyst – Cloud Technologies",
-        date: "Aug 2012 - Jul 2015",
-        location: "Pune, India",
-        imageSrc: "images/Company/1-icertis.png"
     }
 ];
 
