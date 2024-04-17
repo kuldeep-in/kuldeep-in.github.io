@@ -33,7 +33,7 @@ var experienceList = [
         jobTitle: "Solutions Architect",
         date: "Dec 2023 - Present",
         location: "London, UK",
-        imageSrc: "images/Company/3-msft.png"
+        imageSrc: "images/Company/5-databricks.jpg"
     },
     {
         company: "PwC UK",
