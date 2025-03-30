@@ -68,27 +68,27 @@ var experienceList = [
 var nevbarMobile = [
      {
         itemhref: "https://www.linkedin.com/in/kuldeep-in",
-        itemclass: "fs-5 bi-linkedin",
+        icon: "bi-linkedin",
         itemText: "Linkedin"
     },
     {
         itemhref: "https://github.com/kuldeep-in/",
-        itemclass: "fs-5 bi-github",
+        icon: "bi-github",
         itemText: "Github"
     },
     {
         itemhref: "https://kuldeepsingh-in.medium.com/",
-        itemclass: "fs-5 bi-medium",
+        icon: "bi-medium",
         itemText: "Blogs"
     },
     {
         itemhref: "https://stackoverflow.com/users/2496782/kuldeep/",
-        itemclass: "fs-5 bi-stack-overflow",
+        icon: "bi-stack-overflow",
         itemText: "Stackoverflow"
     },
     {
         itemhref: "KuldeepSingh-Resume.pdf",
-        itemclass: "fs-5 bi-download",
+        icon: "bi-download",
         itemText: "Resume"
     }
 ];
@@ -137,6 +137,30 @@ window.addEventListener('load', fetchStatus);
 //    setInterval(fetchStatus, fetchInterval);
 //});
 
+// Mobile Navbar
+varNavBarContainer = document.getElementById("mobileNavBar");
+for (var i = 0; i < nevbarMobile.length; i++) {
+    const listItem = document.createElement('li');
+    listItem.classList.add('nav-item');
+
+    const link = document.createElement('a');
+    link.href = nevbarMobile[i].itemhref;
+    link.target = "_new";
+    link.classList.add('nav-link');
+
+    const icon = document.createElement('i');
+    icon.classList.add('fs-5', nevbarMobile[i].icon);
+
+    const textSpan = document.createElement('span');
+    textSpan.classList.add('ms-1', 'd-none', 'd-sm-inline');
+    textSpan.textContent = nevbarMobile[i].itemText;
+
+    link.appendChild(icon);
+    link.appendChild(textSpan);
+    listItem.appendChild(link);
+    varNavBarContainer.appendChild(listItem);
+}
+
 // Technologies
 // Get the container element
 var skillsContainer = document.getElementById("dynamicSkills");
@@ -149,7 +173,6 @@ for (var i = 0; i < skillsList.length; i++) {
 }
 
 var experienceContainer = document.getElementById("dynamicexperience");
-
 // Loop through the list and create divs dynamically
 for (var i = 0; i < experienceList.length; i++) {
     // Create the outer div with the class "resume-box" and "row"
