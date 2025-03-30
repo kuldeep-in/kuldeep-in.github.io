@@ -77,7 +77,7 @@ var nevbarMobile = [
         itemText: "Github"
     },
     {
-        itemhref: "https://kuldeepsingh-in.medium.com/",
+        itemhref: "https://kuldeep-in.medium.com/",
         icon: "bi-medium",
         itemText: "Blogs"
     },
