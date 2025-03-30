@@ -99,7 +99,7 @@ const nevbarMobile = [
     }
 ];
 
-const navbarWeb = [
+const navbarWebItems = [
         {
             href: "mailto:in.singhkuldeep@gmail.com",
             icon: "bi-envelope-at",
@@ -192,7 +192,42 @@ window.addEventListener('load', fetchStatus);
 //});
 
 // Mobile Navbar
-varNavBarContainer = document.getElementById("mobileNavBar");
+const navBarDivWeb = document.getElementById('webNavBar');
+
+navbarWebItems.forEach(item => {
+    const div = document.createElement('div');
+
+    if (item.isLink) {
+        const link = document.createElement('a');
+        link.href = item.href;
+        link.target = "_new";
+
+        const icon = document.createElement('i');
+        icon.classList.add('fs-5', item.icon);
+
+        const textSpan = document.createElement('span');
+        textSpan.style.paddingLeft = '5px';
+        textSpan.textContent = item.text;
+
+        link.appendChild(icon);
+        link.appendChild(textSpan);
+        div.appendChild(link);
+    } else {
+        const icon = document.createElement('i');
+        icon.classList.add('fs-5', item.icon);
+
+        const textSpan = document.createElement('span');
+        textSpan.style.paddingLeft = '5px';
+        textSpan.textContent = item.text;
+
+        div.appendChild(icon);
+        div.appendChild(textSpan);
+    }
+    navBarDivWeb.appendChild(div);
+});
+
+// Mobile Navbar
+var navBarContainer = document.getElementById("mobileNavBar");
 for (var i = 0; i < nevbarMobile.length; i++) {
     const listItem = document.createElement('li');
     listItem.classList.add('nav-item');
@@ -212,7 +247,7 @@ for (var i = 0; i < nevbarMobile.length; i++) {
     link.appendChild(icon);
     link.appendChild(textSpan);
     listItem.appendChild(link);
-    varNavBarContainer.appendChild(listItem);
+    navBarContainer.appendChild(listItem);
 }
 
 // Technologies
