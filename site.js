@@ -5,8 +5,9 @@ var visitorCountJson = "";
 var linkedinURL = "https://www.linkedin.com/in/kuldeep-in";
 var githubURL = "https://github.com/kuldeep-in/";
 var mediumURL = "https://kuldeep-in.medium.com/";
+var emailAddress = "in.singhkuldeep@gmail.com";
 
-var skillsList = [
+const skillsList = [
 
     { text: "Enterprise Application Architecture" },
     { text: "Cloud / Digital transformation" },
@@ -32,7 +33,7 @@ var skillsList = [
     { text: "Power BI / Power Apps" }
 ];
 
-var experienceList = [
+const experienceList = [
      {
         company: "Databricks",
         jobTitle: "Solutions Architect",
@@ -70,7 +71,7 @@ var experienceList = [
     }
 ];
 
-var nevbarMobile = [
+const nevbarMobile = [
      {
         itemhref: linkedinURL,
         icon: "bi-linkedin",
@@ -97,6 +98,54 @@ var nevbarMobile = [
         itemText: "Resume"
     }
 ];
+
+const navbarWeb = [
+        {
+            href: "mailto:in.singhkuldeep@gmail.com",
+            icon: "bi-envelope-at",
+            text: emailAddress,
+            isLink: true
+        },
+        {
+            icon: "bi-telephone",
+            text: "+44 7779563361",
+            isLink: false
+        },
+        {
+            icon: "bi-pin-map",
+            text: "London, UK",
+            isLink: false
+        },
+        {
+            icon: "bi-cake2",
+            text: "Sept 10",
+            isLink: false
+        },
+        {
+            href: linkedinURL,
+            icon: "bi-linkedin",
+            text: "/kuldeep-in",
+            isLink: true
+        },
+        {
+            href: githubURL,
+            icon: "bi-github",
+            text: "/kuldeep-in",
+            isLink: true
+        },
+        {
+            href: mediumURL,
+            icon: "bi-medium",
+            text: "@kuldeep-in",
+            isLink: true
+        },
+        {
+            href: "https://stackoverflow.com/users/2496782/kuldeep",
+            icon: "bi-stack-overflow",
+            text: "/kuldeep",
+            isLink: true
+        }
+    ];
 
 // URL of the JSON file
 const url = 'https://raw.githubusercontent.com/kuldeepsingh-in/kuldeepsingh-in.github.io/main/badgeData.json';
