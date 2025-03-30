@@ -223,7 +223,7 @@ navbarWebItems.forEach(item => {
         div.appendChild(icon);
         div.appendChild(textSpan);
     }
-    navBarDivWeb.appendChild(div);
+    //navBarDivWeb.appendChild(div);
 });
 
 // Mobile Navbar
