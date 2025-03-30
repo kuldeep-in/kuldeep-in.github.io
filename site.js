@@ -1,6 +1,11 @@
 
 var badgeObjects = "";
 var visitorCountJson = "";
+
+var linkedinURL = "https://www.linkedin.com/in/kuldeep-in";
+var githubURL = "https://github.com/kuldeep-in/";
+var mediumURL = "https://kuldeep-in.medium.com/";
+
 var skillsList = [
 
     { text: "Enterprise Application Architecture" },
@@ -67,17 +72,17 @@ var experienceList = [
 
 var nevbarMobile = [
      {
-        itemhref: "https://www.linkedin.com/in/kuldeep-in",
+        itemhref: linkedinURL,
         icon: "bi-linkedin",
         itemText: "Linkedin"
     },
     {
-        itemhref: "https://github.com/kuldeep-in/",
+        itemhref: githubURL,
         icon: "bi-github",
         itemText: "Github"
     },
     {
-        itemhref: "https://kuldeep-in.medium.com/",
+        itemhref: mediumURL,
         icon: "bi-medium",
         itemText: "Blogs"
     },
