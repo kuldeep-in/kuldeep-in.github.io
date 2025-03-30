@@ -65,6 +65,34 @@ var experienceList = [
     }
 ];
 
+var nevbarMobile = [
+     {
+        itemhref: "https://www.linkedin.com/in/kuldeep-in",
+        itemclass: "fs-5 bi-linkedin",
+        itemText: "Linkedin"
+    },
+    {
+        itemhref: "https://github.com/kuldeep-in/",
+        itemclass: "fs-5 bi-github",
+        itemText: "Github"
+    },
+    {
+        itemhref: "https://kuldeepsingh-in.medium.com/",
+        itemclass: "fs-5 bi-medium",
+        itemText: "Blogs"
+    },
+    {
+        itemhref: "https://stackoverflow.com/users/2496782/kuldeep/",
+        itemclass: "fs-5 bi-stack-overflow",
+        itemText: "Stackoverflow"
+    },
+    {
+        itemhref: "KuldeepSingh-Resume.pdf",
+        itemclass: "fs-5 bi-download",
+        itemText: "Resume"
+    }
+];
+
 // URL of the JSON file
 const url = 'https://raw.githubusercontent.com/kuldeepsingh-in/kuldeepsingh-in.github.io/main/badgeData.json';
 const statsURL = 'https://api.visitorbadge.io/api/status?path=https%3A%2F%2Fgithub.com%2Fkuldeepsingh-in%2Fkuldeepsingh-in'
