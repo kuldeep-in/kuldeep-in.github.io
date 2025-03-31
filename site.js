@@ -1,49 +1,10 @@
 
-var badgeObjects = "";
 var visitorCountJson = "";
 
 var linkedinURL = "https://www.linkedin.com/in/kuldeep-in";
 var githubURL = "https://github.com/kuldeep-in/";
 var mediumURL = "https://kuldeep-in.medium.com/";
 var emailAddress = "in.singhkuldeep@gmail.com";
-
-const experienceList = [
-     {
-        company: "Databricks",
-        jobTitle: "Solutions Architect",
-        date: "Dec 2023 - Present",
-        location: "London, UK",
-        imageSrc: "images/Company/5-databricks.jpg"
-    },
-    {
-        company: "PwC UK",
-        jobTitle: "Cloud Solutions Architect / Manager",
-        date: "June 2022 - Nov 2023",
-        location: "London, UK",
-        imageSrc: "images/Company/4-pwc.png"
-    },
-    {
-        company: "Microsoft",
-        jobTitle: "Cloud Solutions Architect - Engineering",
-        date: "July 2019 - May 2022",
-        location: "London, UK",
-        imageSrc: "images/Company/3-msft.png"
-    },
-    {
-        company: "Microsoft",
-        jobTitle: "Cloud Consultant",
-        date: "Jan 2016 - July 2019",
-        location: "Hyderabad, India",
-        imageSrc: "images/Company/3-msft.png"
-    },
-    {
-        company: "Aon Hewitt",
-        jobTitle: "Software Engineer",
-        date: "Aug 2015 - Jan 2016",
-        location: "Gurgoan, India",
-        imageSrc: "images/Company/2-aon.png"
-    }
-];
 
 const nevbarMobile = [
      {
@@ -330,74 +291,6 @@ for (var i = 0; i < nevbarMobile.length; i++) {
     link.appendChild(textSpan);
     listItem.appendChild(link);
     navBarContainer.appendChild(listItem);
-}
-
-
-var experienceContainer = document.getElementById("dynamicexperience");
-// Loop through the list and create divs dynamically
-for (var i = 0; i < experienceList.length; i++) {
-    // Create the outer div with the class "resume-box" and "row"
-    var resumeBox = document.createElement("div");
-    resumeBox.className = "resume-box row";
-
-    // Create the first inner div with the class "col-xs-3 col-sm-3 col-md-2"
-    var col1 = document.createElement("div");
-    col1.className = "col-xs-3 col-sm-3 col-md-2";
-
-    // Create the image element
-    var img = document.createElement("img");
-    img.className = "company-pic";
-    img.src = experienceList[i].imageSrc;
-    img.alt = "";
-
-    // Append the image to the first inner div
-    col1.appendChild(img);
-
-    // Create the second inner div with the class "col-xs-6 col-sm-6 col-md-6 text-left"
-    var col2 = document.createElement("div");
-    col2.className = "col-xs-9 col-sm-9 col-md-6 text-left";
-
-    // Create the heading element
-    var heading = document.createElement("h4");
-    //heading.className = "";
-    heading.textContent = experienceList[i].company;
-
-    // Create the span element for job title
-    var jobTitle = document.createElement("h5");
-    //jobTitle.className = "";
-    jobTitle.textContent = experienceList[i].jobTitle;
-
-    // Append the heading and job title to the second inner div
-    col2.appendChild(heading);
-    col2.appendChild(jobTitle);
-
-    // Create the third inner div with the class "col-xs-6 col-sm-6 col-md-4 pull-right text-right"
-    var col3 = document.createElement("div");
-    col3.className = "col-xs-9 col-sm-9 col-md-4 pull-right text-right";
-
-    // Create the date heading element
-    var dateHeading = document.createElement("span");
-    //dateHeading.className = "";
-    dateHeading.textContent = experienceList[i].date;
-
-    // Create the span element for location
-    var locationSpan = document.createElement("span");
-    //locationSpan.className = "";
-    locationSpan.textContent = experienceList[i].location;
-
-    var lineBreak = document.createElement("br");
-    // Append the date heading and location span to the third inner div
-    col3.appendChild(dateHeading);
-    col3.appendChild(lineBreak);
-    col3.appendChild(locationSpan);
-
-    // Append the three inner divs to the outer div
-    resumeBox.appendChild(col1);
-    resumeBox.appendChild(col2);
-    resumeBox.appendChild(col3);
-
-    // Append the outer div to the parent element
-    experienceContainer.appendChild(resumeBox);
 }
 
 // Fetch the JSON data
