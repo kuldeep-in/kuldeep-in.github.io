@@ -197,56 +197,45 @@ function loadExperience(experienceList) {
         // Create the image element
         var img = document.createElement("img");
         img.className = "company-pic";
-        img.src = experienceList[i].imageSrc;
+        img.src = item.imageSrc;
         img.alt = "";
         
-        // Append the image to the first inner div
         col1.appendChild(img);
         
-        // Create the second inner div with the class "col-xs-6 col-sm-6 col-md-6 text-left"
         var col2 = document.createElement("div");
         col2.className = "col-xs-9 col-sm-9 col-md-6 text-left";
         
         // Create the heading element
         var heading = document.createElement("h4");
-        //heading.className = "";
-        heading.textContent = experienceList[i].company;
+        heading.textContent = item.company;
         
         // Create the span element for job title
         var jobTitle = document.createElement("h5");
-        //jobTitle.className = "";
-        jobTitle.textContent = experienceList[i].jobTitle;
+        jobTitle.textContent = item.jobTitle;
         
-        // Append the heading and job title to the second inner div
         col2.appendChild(heading);
         col2.appendChild(jobTitle);
         
-        // Create the third inner div with the class "col-xs-6 col-sm-6 col-md-4 pull-right text-right"
         var col3 = document.createElement("div");
         col3.className = "col-xs-9 col-sm-9 col-md-4 pull-right text-right";
         
         // Create the date heading element
         var dateHeading = document.createElement("span");
-        //dateHeading.className = "";
-        dateHeading.textContent = experienceList[i].date;
+        dateHeading.textContent = item.date;
         
         // Create the span element for location
         var locationSpan = document.createElement("span");
-        //locationSpan.className = "";
-        locationSpan.textContent = experienceList[i].location;
+        locationSpan.textContent = item.location;
         
         var lineBreak = document.createElement("br");
-        // Append the date heading and location span to the third inner div
         col3.appendChild(dateHeading);
         col3.appendChild(lineBreak);
         col3.appendChild(locationSpan);
         
-        // Append the three inner divs to the outer div
         resumeBox.appendChild(col1);
         resumeBox.appendChild(col2);
         resumeBox.appendChild(col3);
         
-        // Append the outer div to the parent element
         experienceContainer.appendChild(resumeBox);
     });
 }
