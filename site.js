@@ -7,32 +7,6 @@ var githubURL = "https://github.com/kuldeep-in/";
 var mediumURL = "https://kuldeep-in.medium.com/";
 var emailAddress = "in.singhkuldeep@gmail.com";
 
-const skillsList = [
-
-    { text: "Enterprise Application Architecture" },
-    { text: "Cloud / Digital transformation" },
-    { text: "Data transformation and migration" },
-    { text: "Project Management" },
-    { text: "Solution Design" },
-    { text: "Agile / Scrum" },
-    { text: "Microsoft Azure Cloud" },
-    { text: "Sustainability Cloud" },
-    { text: "Azure Web/ Compute" },
-    { text: "Azure SQL" },
-    { text: "Cosmos DB" },
-    { text: "Azure Storage" },
-    { text: "Azure Data Factory" },
-    { text: "Azure Synapse" },
-    { text: "Azure Databrick" },
-    { text: "Data Warehouse" },
-    { text: "Eventing and Messaging" },
-    { text: "Application Monitoring" },
-    { text: "Azure Automation" },
-    { text: "Azure DevOps" },
-    { text: "Power Platform" },
-    { text: "Power BI / Power Apps" }
-];
-
 const experienceList = [
      {
         company: "Databricks",
@@ -209,6 +183,74 @@ function loadBadges(badgeObjects) {
   });
 }
 
+// Load Experience
+function loadExperience(experienceList) {
+    var experienceContainer = document.getElementById("dynamicexperience");
+    experienceList.forEach(item => {
+        var resumeBox = document.createElement("div");
+        resumeBox.className = "resume-box row";
+
+        // Create the first inner div with the class "col-xs-3 col-sm-3 col-md-2"
+        var col1 = document.createElement("div");
+        col1.className = "col-xs-3 col-sm-3 col-md-2";
+        
+        // Create the image element
+        var img = document.createElement("img");
+        img.className = "company-pic";
+        img.src = experienceList[i].imageSrc;
+        img.alt = "";
+        
+        // Append the image to the first inner div
+        col1.appendChild(img);
+        
+        // Create the second inner div with the class "col-xs-6 col-sm-6 col-md-6 text-left"
+        var col2 = document.createElement("div");
+        col2.className = "col-xs-9 col-sm-9 col-md-6 text-left";
+        
+        // Create the heading element
+        var heading = document.createElement("h4");
+        //heading.className = "";
+        heading.textContent = experienceList[i].company;
+        
+        // Create the span element for job title
+        var jobTitle = document.createElement("h5");
+        //jobTitle.className = "";
+        jobTitle.textContent = experienceList[i].jobTitle;
+        
+        // Append the heading and job title to the second inner div
+        col2.appendChild(heading);
+        col2.appendChild(jobTitle);
+        
+        // Create the third inner div with the class "col-xs-6 col-sm-6 col-md-4 pull-right text-right"
+        var col3 = document.createElement("div");
+        col3.className = "col-xs-9 col-sm-9 col-md-4 pull-right text-right";
+        
+        // Create the date heading element
+        var dateHeading = document.createElement("span");
+        //dateHeading.className = "";
+        dateHeading.textContent = experienceList[i].date;
+        
+        // Create the span element for location
+        var locationSpan = document.createElement("span");
+        //locationSpan.className = "";
+        locationSpan.textContent = experienceList[i].location;
+        
+        var lineBreak = document.createElement("br");
+        // Append the date heading and location span to the third inner div
+        col3.appendChild(dateHeading);
+        col3.appendChild(lineBreak);
+        col3.appendChild(locationSpan);
+        
+        // Append the three inner divs to the outer div
+        resumeBox.appendChild(col1);
+        resumeBox.appendChild(col2);
+        resumeBox.appendChild(col3);
+        
+        // Append the outer div to the parent element
+        experienceContainer.appendChild(resumeBox);
+    });
+}
+
 //const scrollSpy = new bootstrap.ScrollSpy(document.body, {
 //    target: '#navbar-example3'
 //})
@@ -301,16 +343,6 @@ for (var i = 0; i < nevbarMobile.length; i++) {
     navBarContainer.appendChild(listItem);
 }
 
-// Technologies
-// Get the container element
-var skillsContainer = document.getElementById("dynamicSkills");
-// Loop through the labels array
-for (var i = 0; i < skillsList.length; i++) {
-    var label = document.createElement("label");
-    label.textContent = skillsList[i].text;
-    label.classList.add("skill-label");
-    skillsContainer.appendChild(label);
-}
 
 var experienceContainer = document.getElementById("dynamicexperience");
 // Loop through the list and create divs dynamically
@@ -392,6 +424,7 @@ fetch(configURL)
       //const { list1, list2, list3 } = data;
       loadSkills(data.skillsConfig);
       loadBadges(data.badgeConfig);
+      loadExperience(data.experienceConfig);
   })
   .catch(error => {
     console.error('Error fetching data:', error);
