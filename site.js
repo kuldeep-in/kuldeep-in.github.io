@@ -1,61 +1,14 @@
 
 var visitorCountJson = "";
 
+// Not in use
 var linkedinURL = "https://www.linkedin.com/in/kuldeep-in";
 var githubURL = "https://github.com/kuldeep-in/";
 var mediumURL = "https://kuldeep-in.medium.com/";
 var emailAddress = "in.singhkuldeep@gmail.com";
 
-const navbarWebItems = [
-        {
-            href: "mailto:in.singhkuldeep@gmail.com",
-            icon: "bi-envelope-at",
-            text: emailAddress,
-            isLink: true
-        },
-        {
-            icon: "bi-telephone",
-            text: "+44 7779563361",
-            isLink: false
-        },
-        {
-            icon: "bi-pin-map",
-            text: "London, UK",
-            isLink: false
-        },
-        {
-            icon: "bi-cake2",
-            text: "Sept 10",
-            isLink: false
-        },
-        {
-            href: linkedinURL,
-            icon: "bi-linkedin",
-            text: "/kuldeep-in",
-            isLink: true
-        },
-        {
-            href: githubURL,
-            icon: "bi-github",
-            text: "/kuldeep-in",
-            isLink: true
-        },
-        {
-            href: mediumURL,
-            icon: "bi-medium",
-            text: "@kuldeep-in",
-            isLink: true
-        },
-        {
-            href: "https://stackoverflow.com/users/2496782/kuldeep",
-            icon: "bi-stack-overflow",
-            text: "/kuldeep",
-            isLink: true
-        }
-    ];
 
 // URL of the JSON file
-const url = 'https://raw.githubusercontent.com/kuldeepsingh-in/kuldeepsingh-in.github.io/main/badgeData.json';
 const configURL = 'https://raw.githubusercontent.com/kuldeepsingh-in/kuldeepsingh-in.github.io/main/userConfig.json';
 const statsURL = 'https://api.visitorbadge.io/api/status?path=https%3A%2F%2Fgithub.com%2Fkuldeepsingh-in%2Fkuldeepsingh-in'
 
