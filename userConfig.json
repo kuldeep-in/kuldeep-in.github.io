@@ -3,7 +3,7 @@
     {
       "href": "mailto:in.singhkuldeep@gmail.com",
       "icon": "bi-envelope-at",
-      "text": "emailAddress",
+      "text": "in.singhkuldeep @gmail.com",
       "isLink": true
     },
     {
@@ -28,13 +28,13 @@
       "isLink": true
     },
     {
-      "href": "githubURL",
+      "href": "https://github.com/kuldeep-in/",
       "icon": "bi-github",
       "text": "/kuldeep-in",
       "isLink": true
     },
     {
-      "href": "mediumURL",
+      "href": "https://kuldeep-in.medium.com/",
       "icon": "bi-medium",
       "text": "@kuldeep-in",
       "isLink": true
@@ -58,7 +58,7 @@
       "itemText": "Github"
     },
     {
-      "itemhref": "mediumURL",
+      "itemhref": "https://kuldeep-in.medium.com/",
       "icon": "bi-medium",
       "itemText": "Blogs"
     },
