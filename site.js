@@ -6,34 +6,6 @@ var githubURL = "https://github.com/kuldeep-in/";
 var mediumURL = "https://kuldeep-in.medium.com/";
 var emailAddress = "in.singhkuldeep@gmail.com";
 
-const nevbarMobile = [
-     {
-        itemhref: linkedinURL,
-        icon: "bi-linkedin",
-        itemText: "Linkedin"
-    },
-    {
-        itemhref: githubURL,
-        icon: "bi-github",
-        itemText: "Github"
-    },
-    {
-        itemhref: mediumURL,
-        icon: "bi-medium",
-        itemText: "Blogs"
-    },
-    {
-        itemhref: "https://stackoverflow.com/users/2496782/kuldeep/",
-        icon: "bi-stack-overflow",
-        itemText: "Stackoverflow"
-    },
-    {
-        itemhref: "KuldeepSingh-Resume.pdf",
-        icon: "bi-download",
-        itemText: "Resume"
-    }
-];
-
 const navbarWebItems = [
         {
             href: "mailto:in.singhkuldeep@gmail.com",
