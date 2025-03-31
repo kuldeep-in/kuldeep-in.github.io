@@ -171,24 +171,10 @@
       "webOnly": false
     },
     {
-      "imageUrl": "https://images.credly.com/images/edc0b0d8-55ec-4dfe-9353-22c1bc4e07e8/azure-database-administrator-associate-600x600.png",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Microsoft Certified: Azure Database Administrator Associate",
-      "title": "Azure Database Administrator Associate",
-      "webOnly": false
-    },
-    {
       "imageUrl": "https://images.credly.com/images/619f60f8-4f63-4772-910e-dc31c6f2f7e8/image.png",
       "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
       "altText": "Microsoft Certified: Power BI Data Analyst Associate",
       "title": "Power BI Data Analyst Associate",
-      "webOnly": false
-    },
-    {
-      "imageUrl": "https://images.credly.com/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Microsoft Certified: Azure Security Engineer Associate",
-      "title": "Azure Security Engineer Associate",
       "webOnly": false
     },
     {
