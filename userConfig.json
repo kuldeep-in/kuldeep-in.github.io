@@ -1,7 +1,7 @@
 {
-  "nevbarMobile": [
+  "nevbarMobileConfig": [
     {
-      "itemhref": "linkedinURL",
+      "itemhref": "https://www.linkedin.com/in/kuldeep-in/",
       "icon": "bi-linkedin",
       "itemText": "Linkedin"
     },
@@ -26,7 +26,7 @@
       "itemText": "Resume"
     }
   ],
-  "skillsList": [
+  "skillsConfig": [
     { "text": "Enterprise Application Architecture" },
     { "text": "Cloud / Digital transformation" },
     { "text": "Data transformation and migration" },
@@ -50,7 +50,7 @@
     { "text": "Power Platform" },
     { "text": "Power BI / Power Apps" }
   ],
-  "experienceList": [
+  "experienceConfig": [
     {
       "company": "Databricks",
       "jobTitle": "Solutions Architect",
@@ -87,7 +87,7 @@
       "imageSrc": "images/Company/2-aon.png"
     }
   ],
-  "badgeData": [
+  "badgeConfig": [
     {
       "imageUrl": "https://images.credly.com/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png",
       "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
