@@ -1,5 +1,52 @@
 {
-  "nevbarMobileConfig": [
+  "navbarWebConfig": [
+    {
+      "href": "mailto:in.singhkuldeep@gmail.com",
+      "icon": "bi-envelope-at",
+      "text": "emailAddress",
+      "isLink": true
+    },
+    {
+      "icon": "bi-telephone",
+      "text": "+44 7779563361",
+      "isLink": false
+    },
+    {
+      "icon": "bi-pin-map",
+      "text": "London, UK",
+      "isLink": false
+    },
+    {
+      "icon": "bi-cake2",
+      "text": "Sept 10",
+      "isLink": false
+    },
+    {
+      "href": "https://www.linkedin.com/in/kuldeep-in/",
+      "icon": "bi-linkedin",
+      "text": "/kuldeep-in",
+      "isLink": true
+    },
+    {
+      "href": "githubURL",
+      "icon": "bi-github",
+      "text": "/kuldeep-in",
+      "isLink": true
+    },
+    {
+      "href": "mediumURL",
+      "icon": "bi-medium",
+      "text": "@kuldeep-in",
+      "isLink": true
+    },
+    {
+      "href": "https://stackoverflow.com/users/2496782/kuldeep",
+      "icon": "bi-stack-overflow",
+      "text": "/kuldeep",
+      "isLink": true
+    }
+  ],
+  "navbarMobileConfig": [
     {
       "itemhref": "https://www.linkedin.com/in/kuldeep-in/",
       "icon": "bi-linkedin",
