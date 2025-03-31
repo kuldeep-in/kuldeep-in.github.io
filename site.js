@@ -94,6 +94,55 @@ function createFallbackImageHandler(fallbackImageUrl) {
     };
 }
 
+
+for (var i = 0; i < nevbarMobile.length; i++) {
+    const listItem = document.createElement('li');
+    listItem.classList.add('nav-item');
+
+    const link = document.createElement('a');
+    link.href = nevbarMobile[i].itemhref;
+    link.target = "_new";
+    link.classList.add('nav-link');
+
+    const icon = document.createElement('i');
+    icon.classList.add('fs-5', nevbarMobile[i].icon);
+
+    const textSpan = document.createElement('span');
+    textSpan.classList.add('ms-1', 'd-none', 'd-sm-inline');
+    textSpan.textContent = nevbarMobile[i].itemText;
+
+    link.appendChild(icon);
+    link.appendChild(textSpan);
+    listItem.appendChild(link);
+    navBarContainer.appendChild(listItem);
+}
+
+// Load NavBar Mobile
+function loadNavBarMobile(itemList) {
+    var navBarContainer = document.getElementById("mobileNavBar");
+    itemList.forEach(item => {
+         const listItem = document.createElement('li');
+         listItem.classList.add('nav-item');
+     
+         const link = document.createElement('a');
+         link.href = item.itemhref;
+         link.target = "_new";
+         link.classList.add('nav-link');
+     
+         const icon = document.createElement('i');
+         icon.classList.add('fs-5', item.icon);
+     
+         const textSpan = document.createElement('span');
+         textSpan.classList.add('ms-1', 'd-none', 'd-sm-inline');
+         textSpan.textContent = item.itemText;
+     
+         link.appendChild(icon);
+         link.appendChild(textSpan);
+         listItem.appendChild(link);
+         navBarContainer.appendChild(listItem);
+  });
+}
+
 // Load Skills
 function loadSkills(skillsList) {
     var skillsContainer = document.getElementById("dynamicSkills");
@@ -234,7 +283,7 @@ window.addEventListener('load', fetchStatus);
 //    setInterval(fetchStatus, fetchInterval);
 //});
 
-// Mobile Navbar
+// Web Navbar
 const navBarDivWeb = document.getElementById('webNavBar');
 
 navbarWebItems.forEach(item => {
@@ -269,30 +318,6 @@ navbarWebItems.forEach(item => {
     //navBarDivWeb.appendChild(div);
 });
 
-// Mobile Navbar
-var navBarContainer = document.getElementById("mobileNavBar");
-for (var i = 0; i < nevbarMobile.length; i++) {
-    const listItem = document.createElement('li');
-    listItem.classList.add('nav-item');
-
-    const link = document.createElement('a');
-    link.href = nevbarMobile[i].itemhref;
-    link.target = "_new";
-    link.classList.add('nav-link');
-
-    const icon = document.createElement('i');
-    icon.classList.add('fs-5', nevbarMobile[i].icon);
-
-    const textSpan = document.createElement('span');
-    textSpan.classList.add('ms-1', 'd-none', 'd-sm-inline');
-    textSpan.textContent = nevbarMobile[i].itemText;
-
-    link.appendChild(icon);
-    link.appendChild(textSpan);
-    listItem.appendChild(link);
-    navBarContainer.appendChild(listItem);
-}
-
 // Fetch the JSON data
 fetch(configURL)
   .then(response => {
@@ -304,6 +329,7 @@ fetch(configURL)
   .then(data => {
       // Destructure lists from the JSON object
       //const { list1, list2, list3 } = data;
+      loadNavBarMobile(data.navbarMobileConfig);
       loadSkills(data.skillsConfig);
       loadBadges(data.badgeConfig);
       loadExperience(data.experienceConfig);
