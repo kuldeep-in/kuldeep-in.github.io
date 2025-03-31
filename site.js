@@ -94,29 +94,6 @@ function createFallbackImageHandler(fallbackImageUrl) {
     };
 }
 
-
-for (var i = 0; i < nevbarMobile.length; i++) {
-    const listItem = document.createElement('li');
-    listItem.classList.add('nav-item');
-
-    const link = document.createElement('a');
-    link.href = nevbarMobile[i].itemhref;
-    link.target = "_new";
-    link.classList.add('nav-link');
-
-    const icon = document.createElement('i');
-    icon.classList.add('fs-5', nevbarMobile[i].icon);
-
-    const textSpan = document.createElement('span');
-    textSpan.classList.add('ms-1', 'd-none', 'd-sm-inline');
-    textSpan.textContent = nevbarMobile[i].itemText;
-
-    link.appendChild(icon);
-    link.appendChild(textSpan);
-    listItem.appendChild(link);
-    navBarContainer.appendChild(listItem);
-}
-
 // Load NavBar Mobile
 function loadNavBarMobile(itemList) {
     var navBarContainer = document.getElementById("mobileNavBar");
