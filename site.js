@@ -149,6 +149,7 @@ const navbarWebItems = [
 
 // URL of the JSON file
 const url = 'https://raw.githubusercontent.com/kuldeepsingh-in/kuldeepsingh-in.github.io/main/badgeData.json';
+const configURL = 'https://raw.githubusercontent.com/kuldeepsingh-in/kuldeepsingh-in.github.io/main/userConfig.json';
 const statsURL = 'https://api.visitorbadge.io/api/status?path=https%3A%2F%2Fgithub.com%2Fkuldeepsingh-in%2Fkuldeepsingh-in'
 
 // Function to handle fallback image loading
@@ -368,6 +369,29 @@ for (var i = 0; i < experienceList.length; i++) {
     experienceContainer.appendChild(resumeBox);
 }
 
+// Fetch the JSON data
+fetch(configURL)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
+    }
+    return response.json(); // Parse the response as JSON
+  })
+  .then(data => {
+    // Destructure lists from the JSON object
+    //const { list1, list2, list3 } = data;
+
+    // Store lists in separate variables
+    //const variable1 = list1;
+    //const variable2 = list2;
+    //const variable3 = list3;
+
+    // Call another function to process the first list
+    loadBadges(data.badgeList);
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
 
 // Fetch the JSON data from the URL
 fetch(url)
