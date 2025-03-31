@@ -66,7 +66,7 @@ function createFallbackImageHandler(fallbackImageUrl) {
     };
 }
 
-// Load NavBar Mobile
+// Load Top NavBar Mobile
 function loadNavBarMobile(itemList) {
     var navBarContainer = document.getElementById("mobileNavBar");
     itemList.forEach(item => {
@@ -90,6 +90,42 @@ function loadNavBarMobile(itemList) {
          listItem.appendChild(link);
          navBarContainer.appendChild(listItem);
   });
+}
+
+// Load Left NavBar Web
+function loadNavBarWeb(itemList) {
+    var navBarDivWeb = document.getElementById('webNavBar');
+    itemList.forEach(item => {
+             const div = document.createElement('div');
+
+            if (item.isLink) {
+                const link = document.createElement('a');
+                link.href = item.href;
+                link.target = "_new";
+        
+                const icon = document.createElement('i');
+                icon.classList.add('fs-5', item.icon);
+        
+                const textSpan = document.createElement('span');
+                textSpan.style.paddingLeft = '5px';
+                textSpan.textContent = item.text;
+        
+                link.appendChild(icon);
+                link.appendChild(textSpan);
+                div.appendChild(link);
+            } else {
+                const icon = document.createElement('i');
+                icon.classList.add('fs-5', item.icon);
+        
+                const textSpan = document.createElement('span');
+                textSpan.style.paddingLeft = '5px';
+                textSpan.textContent = item.text;
+        
+                div.appendChild(icon);
+                div.appendChild(textSpan);
+            }
+            navBarDivWeb.appendChild(div);
+        });
 }
 
 // Load Skills
@@ -199,6 +235,27 @@ function loadExperience(experienceList) {
     });
 }
 
+// Fetch the JSON data
+fetch(configURL)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
+    }
+    return response.json(); // Parse the response as JSON
+  })
+  .then(data => {
+      // Destructure lists from the JSON object
+      //const { list1, list2, list3 } = data;
+      loadNavBarMobile(data.navbarMobileConfig);
+      loadNavBarWeb(data.navbarWebConfig);
+      loadSkills(data.skillsConfig);
+      loadBadges(data.badgeConfig);
+      loadExperience(data.experienceConfig);
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
+
 //const scrollSpy = new bootstrap.ScrollSpy(document.body, {
 //    target: '#navbar-example3'
 //})
@@ -231,61 +288,6 @@ window.addEventListener('load', fetchStatus);
 //    // Invoke the request every 5 seconds.
 //    setInterval(fetchStatus, fetchInterval);
 //});
-
-// Web Navbar
-const navBarDivWeb = document.getElementById('webNavBar');
-
-navbarWebItems.forEach(item => {
-    const div = document.createElement('div');
-
-    if (item.isLink) {
-        const link = document.createElement('a');
-        link.href = item.href;
-        link.target = "_new";
-
-        const icon = document.createElement('i');
-        icon.classList.add('fs-5', item.icon);
-
-        const textSpan = document.createElement('span');
-        textSpan.style.paddingLeft = '5px';
-        textSpan.textContent = item.text;
-
-        link.appendChild(icon);
-        link.appendChild(textSpan);
-        div.appendChild(link);
-    } else {
-        const icon = document.createElement('i');
-        icon.classList.add('fs-5', item.icon);
-
-        const textSpan = document.createElement('span');
-        textSpan.style.paddingLeft = '5px';
-        textSpan.textContent = item.text;
-
-        div.appendChild(icon);
-        div.appendChild(textSpan);
-    }
-    //navBarDivWeb.appendChild(div);
-});
-
-// Fetch the JSON data
-fetch(configURL)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
-    }
-    return response.json(); // Parse the response as JSON
-  })
-  .then(data => {
-      // Destructure lists from the JSON object
-      //const { list1, list2, list3 } = data;
-      loadNavBarMobile(data.navbarMobileConfig);
-      loadSkills(data.skillsConfig);
-      loadBadges(data.badgeConfig);
-      loadExperience(data.experienceConfig);
-  })
-  .catch(error => {
-    console.error('Error fetching data:', error);
-  });
 
 /*
 // Fetch the JSON data from the URL
