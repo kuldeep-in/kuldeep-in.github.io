@@ -387,7 +387,7 @@ fetch(configURL)
     //const variable3 = list3;
 
     // Call another function to process the first list
-    loadBadges(data.badgeList);
+    loadBadges(data.badgeData);
   })
   .catch(error => {
     console.error('Error fetching data:', error);
