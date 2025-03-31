@@ -1,4 +1,31 @@
 {
+  "nevbarMobile": [
+    {
+      "itemhref": "linkedinURL",
+      "icon": "bi-linkedin",
+      "itemText": "Linkedin"
+    },
+    {
+      "itemhref": "githubURL",
+      "icon": "bi-github",
+      "itemText": "Github"
+    },
+    {
+      "itemhref": "mediumURL",
+      "icon": "bi-medium",
+      "itemText": "Blogs"
+    },
+    {
+      "itemhref": "https://stackoverflow.com/users/2496782/kuldeep/",
+      "icon": "bi-stack-overflow",
+      "itemText": "Stackoverflow"
+    },
+    {
+      "itemhref": "KuldeepSingh-Resume.pdf",
+      "icon": "bi-download",
+      "itemText": "Resume"
+    }
+  ],
   "skillsList": [
     { "text": "Enterprise Application Architecture" },
     { "text": "Cloud / Digital transformation" },
