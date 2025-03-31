@@ -1,313 +1,335 @@
 {
-  "badgeData11": [1,2,3],
-  "badgeData":
-[
-  {
-    "imageUrl": "https://images.credly.com/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: Azure Solutions Architect Expert",
-    "title": "Azure Solutions Architect Expert",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: DevOps Engineer Expert",
-    "title": "DevOps Engineer Expert",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/452203ac-9ce5-40b6-a136-5fee18544a89/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: Customer Data Platform Specialty",
-    "title": "Customer Data Platform Specialty",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/515fa1dc-ac4a-4f08-ac73-6fd9694124cb/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
-    "title": "Azure Cosmos DB Developer Specialty",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/61542181-0e8d-496c-a17c-3d4bf590eda1/azure-data-engineer-associate-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: Azure Data Engineer Associate",
-    "title": "Azure Data Engineer Associate",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/edc0b0d8-55ec-4dfe-9353-22c1bc4e07e8/azure-database-administrator-associate-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: Azure Database Administrator Associate",
-    "title": "Azure Database Administrator Associate",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/619f60f8-4f63-4772-910e-dc31c6f2f7e8/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: Power BI Data Analyst Associate",
-    "title": "Power BI Data Analyst Associate",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: Azure Security Engineer Associate",
-    "title": "Azure Security Engineer Associate",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: Azure Administrator Associate",
-    "title": "Azure Administrator Associate",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/63316b60-f62d-4e51-aacc-c23cb850089c/azure-developer-associate-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified: Azure Developer Associate",
-    "title": "Azure Developer Associate",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "images/Badges/Databricks Fundamentals.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Databricks Lakehouse Fundamentals",
-    "title": "Databricks Lakehouse Fundamentals",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/fd6bb2af-2f05-4d9b-a23e-39f8e309a82d/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified Trainer 2023-2024",
-    "title": "Microsoft Certified Trainer 2023-2024",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/bb4156e4-c2e1-4399-b03c-af6feb7a6cc4/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified Trainer 2022-2023",
-    "title": "Microsoft Certified Trainer 2022-2023",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/a6ea4416-4f34-4a85-bc24-eb3fe32fd241/MCT-Microsoft_Certified_Trainer-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Microsoft Certified Trainer 2021-2022",
-    "title": "Microsoft Certified Trainer 2021-2022",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/3c27bae0-76fa-4b69-b7ac-907b4dfcf382/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "OpenHack: Modern Data Warehousing",
-    "title": "OpenHack - Modern Data Warehousing",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/8aa171e5-784a-4a9e-b1ab-c3b818ea136a/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Gold Star!",
-    "title": "Kusto Detective Gold Star!",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/86ba2d7a-85fb-4331-bf1d-2e7b8ec32220/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto S2E9 - Senior Detective Agent",
-    "title": "Kusto S2E9 - Senior Detective Agent",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/1c1c412b-926c-4ff8-8e42-62336e76e871/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto S2E8 - Special Detective Agent II",
-    "title": "Kusto S2E8 - Special Detective Agent II",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/b096f449-fce1-42d7-be93-e6e1e32e171b/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto S2E7 - Special Detective Agent",
-    "title": "Kusto S2E7 - Special Detective Agent",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/8db7e105-c19e-4df8-87a4-ed1d5ccbc32b/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto S2E6 - Principal Detective",
-    "title": "Kusto S2E6 - Principal Detective",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/2fb50859-656e-4390-b4ca-88bc2b619867/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto S2E5 - Kusto Senior Detective II",
-    "title": "Kusto S2E5 - Kusto Senior Detective II",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/79b22d1d-cb2d-471e-add7-bbe2e1672f61/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto S2E4 - Kusto Senior Detective",
-    "title": "Kusto S2E4 - Kusto Senior Detective",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/27c40e7b-98b2-4312-b52c-4454f6c90c52/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto S2E3 - Kusto Detective III",
-    "title": "Kusto S2E3 - Kusto Detective III",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/8fc10fee-7b05-4b86-8504-01abf614bcac/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto S2E2 - Kusto Detective II",
-    "title": "Kusto S2E2 - Kusto Detective II",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/304d7409-3dd5-40b6-ab20-88d3ec012eb1/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto S2E1 - Kusto Detective I",
-    "title": "Kusto S2E1 - Kusto Detective I",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/63873eba-9e8c-41a9-8a35-9d23adee14cb/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Azure Data Explorer In-A-Day",
-    "title": "Azure Data Explorer In-A-Day",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/6726e724-5ce8-477e-93f5-6b39d6933273/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Agency - 2022",
-    "title": "Kusto Detective Agency - 2022",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/43b452c6-89f2-4649-bb84-19f3166a833e/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Agency - S1E5",
-    "title": "Kusto Detective Agency - S1E5",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/e7522dc8-886b-4a5b-9436-535e1adaa5c5/image.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Kusto Detective Agency - S1E4",
-    "title": "Kusto Detective Agency - S1E4",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/6c7fb568-a3cb-4868-9563-34c31ba3e347/Valuable-Contributor-Silver.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Valuable Contributor Silver",
-    "title": "Valuable Contributor Silver",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/c081877f-08c1-4b72-bb79-8dd795daadff/Valuable-Contributor-Gold.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Valuable Contributor Gold",
-    "title": "Valuable Contributor Gold",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/e9bba6ed-6850-4c95-bc14-77886a88efc9/Onboarding-Buddy-Gold.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Onboarding Buddy Gold",
-    "title": "Onboarding Buddy Gold",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/5a009304-bf5b-4570-a58a-84eab2e05085/Mentor-Silver.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Mentor Silver",
-    "title": "Mentor Silver",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/01334c2e-86a5-49ee-8c11-2e12a482a122/Mentor-Gold.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Mentor Gold",
-    "title": "Mentor Gold",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "images/Badges/CosmosDB_Mentor.jpg",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Mentor - Azure Cosmos DB",
-    "title": "Mentor - Azure Cosmos DB",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/d807abc0-9201-41a8-ad25-90ed4a69ee51/Acc_Badge_v4.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Accessibility in Action",
-    "title": "Accessibility in Action",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/28c9f5d8-5dce-4ac7-ba72-68652b57648e/LODS_Classes_Delivered_Badges_Role-02.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Skillable - 10 Classes Delivered",
-    "title": "Skillable - 10 Classes Delivered"
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/0db940b3-280d-4adc-a753-6c854c75bf33/LODS_Students_Reached_Badges_Role-04.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Skillable - 50 Students Reached",
-    "title": "Skillable - 50 Students Reached",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/741ca87d-39d8-45aa-9e1b-f61f049af625/LODS_Students_Reached_Badges_Role-05.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Skillable - 75 Students Reached",
-    "title": "Skillable - 75 Students Reached",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/f4ad1de8-5729-4760-8aa4-ab7a2bf55ea0/LODS_Students_Reached_Badges_Role-06.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Skillable - 100 Students Reached",
-    "title": "Skillable - 100 Students Reached",
-    "webOnly": false
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/8c6dbe49-15cf-4982-9406-ec65b75a4576/Microsoft_Exam534.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "Exam 534: Architecting Microsoft Azure Solutions",
-    "title": "Architecting Microsoft Azure Solutions",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/af626bbe-ed13-472f-9e72-d4808474acb5/exam-dp200-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "DP-200 Implementing an Azure Data Solution",
-    "title": "DP-200 Implementing an Azure Data Solution",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/107e2eb6-f394-40eb-83d2-d8c9b7d34555/exam-az400-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "AZ-400 Designing and Implementing Microsoft DevOps Solutions",
-    "title": "AZ-400 Designing and Implementing Microsoft DevOps Solutions",
-    "webOnly": true
-  },
-  {
-    "imageUrl": "https://images.credly.com/images/28004779-9175-4fc8-be6f-448663c9422b/exam-az301-600x600.png",
-    "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-    "altText": "AZ-301 Microsoft Azure Architect Design",
-    "title": "AZ-301 Microsoft Azure Architect Design",
-    "webOnly": true
-  }
-]
+  "skillsList" = [
+    { text: "Enterprise Application Architecture" },
+    { text: "Cloud / Digital transformation" },
+    { text: "Data transformation and migration" },
+    { text: "Project Management" },
+    { text: "Solution Design" },
+    { text: "Agile / Scrum" },
+    { text: "Microsoft Azure Cloud" },
+    { text: "Sustainability Cloud" },
+    { text: "Azure Web/ Compute" },
+    { text: "Azure SQL" },
+    { text: "Cosmos DB" },
+    { text: "Azure Storage" },
+    { text: "Azure Data Factory" },
+    { text: "Azure Synapse" },
+    { text: "Azure Databrick" },
+    { text: "Data Warehouse" },
+    { text: "Eventing and Messaging" },
+    { text: "Application Monitoring" },
+    { text: "Azure Automation" },
+    { text: "Azure DevOps" },
+    { text: "Power Platform" },
+    { text: "Power BI / Power Apps" }
+],
+  "badgeData": [
+    {
+      "imageUrl": "https://images.credly.com/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: Azure Solutions Architect Expert",
+      "title": "Azure Solutions Architect Expert",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: DevOps Engineer Expert",
+      "title": "DevOps Engineer Expert",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/452203ac-9ce5-40b6-a136-5fee18544a89/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: Customer Data Platform Specialty",
+      "title": "Customer Data Platform Specialty",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/515fa1dc-ac4a-4f08-ac73-6fd9694124cb/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
+      "title": "Azure Cosmos DB Developer Specialty",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/61542181-0e8d-496c-a17c-3d4bf590eda1/azure-data-engineer-associate-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: Azure Data Engineer Associate",
+      "title": "Azure Data Engineer Associate",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/edc0b0d8-55ec-4dfe-9353-22c1bc4e07e8/azure-database-administrator-associate-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: Azure Database Administrator Associate",
+      "title": "Azure Database Administrator Associate",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/619f60f8-4f63-4772-910e-dc31c6f2f7e8/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: Power BI Data Analyst Associate",
+      "title": "Power BI Data Analyst Associate",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: Azure Security Engineer Associate",
+      "title": "Azure Security Engineer Associate",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: Azure Administrator Associate",
+      "title": "Azure Administrator Associate",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/63316b60-f62d-4e51-aacc-c23cb850089c/azure-developer-associate-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified: Azure Developer Associate",
+      "title": "Azure Developer Associate",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "images/Badges/Databricks Fundamentals.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Databricks Lakehouse Fundamentals",
+      "title": "Databricks Lakehouse Fundamentals",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/fd6bb2af-2f05-4d9b-a23e-39f8e309a82d/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified Trainer 2023-2024",
+      "title": "Microsoft Certified Trainer 2023-2024",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/bb4156e4-c2e1-4399-b03c-af6feb7a6cc4/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified Trainer 2022-2023",
+      "title": "Microsoft Certified Trainer 2022-2023",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/a6ea4416-4f34-4a85-bc24-eb3fe32fd241/MCT-Microsoft_Certified_Trainer-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Microsoft Certified Trainer 2021-2022",
+      "title": "Microsoft Certified Trainer 2021-2022",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/3c27bae0-76fa-4b69-b7ac-907b4dfcf382/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "OpenHack: Modern Data Warehousing",
+      "title": "OpenHack - Modern Data Warehousing",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/8aa171e5-784a-4a9e-b1ab-c3b818ea136a/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto Detective Gold Star!",
+      "title": "Kusto Detective Gold Star!",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/86ba2d7a-85fb-4331-bf1d-2e7b8ec32220/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto S2E9 - Senior Detective Agent",
+      "title": "Kusto S2E9 - Senior Detective Agent",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/1c1c412b-926c-4ff8-8e42-62336e76e871/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto S2E8 - Special Detective Agent II",
+      "title": "Kusto S2E8 - Special Detective Agent II",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/b096f449-fce1-42d7-be93-e6e1e32e171b/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto S2E7 - Special Detective Agent",
+      "title": "Kusto S2E7 - Special Detective Agent",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/8db7e105-c19e-4df8-87a4-ed1d5ccbc32b/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto S2E6 - Principal Detective",
+      "title": "Kusto S2E6 - Principal Detective",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/2fb50859-656e-4390-b4ca-88bc2b619867/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto S2E5 - Kusto Senior Detective II",
+      "title": "Kusto S2E5 - Kusto Senior Detective II",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/79b22d1d-cb2d-471e-add7-bbe2e1672f61/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto S2E4 - Kusto Senior Detective",
+      "title": "Kusto S2E4 - Kusto Senior Detective",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/27c40e7b-98b2-4312-b52c-4454f6c90c52/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto S2E3 - Kusto Detective III",
+      "title": "Kusto S2E3 - Kusto Detective III",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/8fc10fee-7b05-4b86-8504-01abf614bcac/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto S2E2 - Kusto Detective II",
+      "title": "Kusto S2E2 - Kusto Detective II",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/304d7409-3dd5-40b6-ab20-88d3ec012eb1/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto S2E1 - Kusto Detective I",
+      "title": "Kusto S2E1 - Kusto Detective I",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/63873eba-9e8c-41a9-8a35-9d23adee14cb/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Azure Data Explorer In-A-Day",
+      "title": "Azure Data Explorer In-A-Day",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/6726e724-5ce8-477e-93f5-6b39d6933273/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto Detective Agency - 2022",
+      "title": "Kusto Detective Agency - 2022",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/43b452c6-89f2-4649-bb84-19f3166a833e/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto Detective Agency - S1E5",
+      "title": "Kusto Detective Agency - S1E5",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/e7522dc8-886b-4a5b-9436-535e1adaa5c5/image.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Kusto Detective Agency - S1E4",
+      "title": "Kusto Detective Agency - S1E4",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/6c7fb568-a3cb-4868-9563-34c31ba3e347/Valuable-Contributor-Silver.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Valuable Contributor Silver",
+      "title": "Valuable Contributor Silver",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/c081877f-08c1-4b72-bb79-8dd795daadff/Valuable-Contributor-Gold.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Valuable Contributor Gold",
+      "title": "Valuable Contributor Gold",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/e9bba6ed-6850-4c95-bc14-77886a88efc9/Onboarding-Buddy-Gold.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Onboarding Buddy Gold",
+      "title": "Onboarding Buddy Gold",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/5a009304-bf5b-4570-a58a-84eab2e05085/Mentor-Silver.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Mentor Silver",
+      "title": "Mentor Silver",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/01334c2e-86a5-49ee-8c11-2e12a482a122/Mentor-Gold.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Mentor Gold",
+      "title": "Mentor Gold",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "images/Badges/CosmosDB_Mentor.jpg",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Mentor - Azure Cosmos DB",
+      "title": "Mentor - Azure Cosmos DB",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/d807abc0-9201-41a8-ad25-90ed4a69ee51/Acc_Badge_v4.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Accessibility in Action",
+      "title": "Accessibility in Action",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/28c9f5d8-5dce-4ac7-ba72-68652b57648e/LODS_Classes_Delivered_Badges_Role-02.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Skillable - 10 Classes Delivered",
+      "title": "Skillable - 10 Classes Delivered"
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/0db940b3-280d-4adc-a753-6c854c75bf33/LODS_Students_Reached_Badges_Role-04.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Skillable - 50 Students Reached",
+      "title": "Skillable - 50 Students Reached",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/741ca87d-39d8-45aa-9e1b-f61f049af625/LODS_Students_Reached_Badges_Role-05.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Skillable - 75 Students Reached",
+      "title": "Skillable - 75 Students Reached",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/f4ad1de8-5729-4760-8aa4-ab7a2bf55ea0/LODS_Students_Reached_Badges_Role-06.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Skillable - 100 Students Reached",
+      "title": "Skillable - 100 Students Reached",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/8c6dbe49-15cf-4982-9406-ec65b75a4576/Microsoft_Exam534.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Exam 534: Architecting Microsoft Azure Solutions",
+      "title": "Architecting Microsoft Azure Solutions",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/af626bbe-ed13-472f-9e72-d4808474acb5/exam-dp200-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "DP-200 Implementing an Azure Data Solution",
+      "title": "DP-200 Implementing an Azure Data Solution",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/107e2eb6-f394-40eb-83d2-d8c9b7d34555/exam-az400-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "AZ-400 Designing and Implementing Microsoft DevOps Solutions",
+      "title": "AZ-400 Designing and Implementing Microsoft DevOps Solutions",
+      "webOnly": true
+    },
+    {
+      "imageUrl": "https://images.credly.com/images/28004779-9175-4fc8-be6f-448663c9422b/exam-az301-600x600.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "AZ-301 Microsoft Azure Architect Design",
+      "title": "AZ-301 Microsoft Azure Architect Design",
+      "webOnly": true
+    }
+  ]
 }
