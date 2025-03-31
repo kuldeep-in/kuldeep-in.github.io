@@ -158,6 +158,46 @@ function createFallbackImageHandler(fallbackImageUrl) {
     };
 }
 
+// Function to loop through a list and perform an action
+function loadBadges(badgeObjects) {
+    var badgeContainer = document.getElementById("dynamicBadges");
+    // Loop to create the HTML structure dynamically
+    badgeObjects.forEach(item => {
+       // for (var j = 0; j < badgeObjects.length; j++) {
+        var badgeCard = document.createElement("div");
+        badgeCard.classList.add("badgeCard");
+
+        if (item.webOnly) {
+            badgeCard.classList.add("webOnly");
+        }
+
+        var badgeImage = document.createElement("img");
+        badgeImage.classList.add("badge-img");
+        badgeImage.src = item.imageUrl;
+        badgeImage.alt = item.altText;
+        badgeImage.onerror = createFallbackImageHandler(item.fallbackImageUrl);
+
+        var cardBody = document.createElement("div");
+        cardBody.classList.add("card-body");
+        cardBody.classList.add("webOnly");
+
+        var badgeTitle = document.createElement("p");
+        badgeTitle.classList.add("badgeTitle");
+        badgeTitle.textContent = item.title;
+
+        var lineDiv = document.createElement("div");
+        lineDiv.classList.add("line");
+        lineDiv.classList.add("webOnly");
+
+        cardBody.appendChild(badgeTitle);
+        badgeCard.appendChild(badgeImage);
+        badgeCard.appendChild(lineDiv);
+        badgeCard.appendChild(cardBody);
+
+        badgeContainer.appendChild(badgeCard);
+  });
+}
+
 //const scrollSpy = new bootstrap.ScrollSpy(document.body, {
 //    target: '#navbar-example3'
 //})
