@@ -159,12 +159,22 @@ function createFallbackImageHandler(fallbackImageUrl) {
     };
 }
 
-// Function to loop through a list and perform an action
+// Load Skills
+function loadSkills(skillsList) {
+    var skillsContainer = document.getElementById("dynamicSkills");
+    skillsList.forEach(item => {
+        var label = document.createElement("label");
+        label.textContent = item.text;
+        label.classList.add("skill-label");
+        skillsContainer.appendChild(label);
+  });
+}
+
+// Load Badges
 function loadBadges(badgeObjects) {
     var badgeContainer = document.getElementById("dynamicBadges");
     // Loop to create the HTML structure dynamically
     badgeObjects.forEach(item => {
-       // for (var j = 0; j < badgeObjects.length; j++) {
         var badgeCard = document.createElement("div");
         badgeCard.classList.add("badgeCard");
 
@@ -378,21 +388,16 @@ fetch(configURL)
     return response.json(); // Parse the response as JSON
   })
   .then(data => {
-    // Destructure lists from the JSON object
-    //const { list1, list2, list3 } = data;
-
-    // Store lists in separate variables
-    //const variable1 = list1;
-    //const variable2 = list2;
-    //const variable3 = list3;
-
-    // Call another function to process the first list
-    loadBadges(data.badgeData);
+      // Destructure lists from the JSON object
+      //const { list1, list2, list3 } = data;
+      loadSkills(data.skillsConfig);
+      loadBadges(data.badgeConfig);
   })
   .catch(error => {
     console.error('Error fetching data:', error);
   });
 
+/*
 // Fetch the JSON data from the URL
 fetch(url)
     .then(response => {
@@ -441,7 +446,7 @@ fetch(url)
         }
     });
 
-/*
+
 Removed Badges
 
 //{
