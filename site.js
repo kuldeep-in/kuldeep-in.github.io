@@ -151,7 +151,7 @@ function loadExperience(experienceList) {
         col1.appendChild(img);
         
         var col2 = document.createElement("div");
-        col2.className = "col-9 col-sm-9 col-md-12 text-left";
+        col2.className = "col-9 col-sm-9 col-md-12 row";
         
         // Create the heading element
         var heading = document.createElement("h4");
@@ -186,6 +186,28 @@ function loadExperience(experienceList) {
         resumeBox.appendChild(col1);
         resumeBox.appendChild(col2);
         //resumeBox.appendChild(col3);
+        if (item.addRole)
+        {
+             var jobTitle2 = document.createElement("h5");
+            jobTitle2.textContent = item.jobTitle2;
+            
+            col2.appendChild(jobTitle2);
+            
+            var dateHeading2 = document.createElement("div");
+            dateHeading2.className = "col-7";
+            dateHeading2.textContent = item.date2;
+            
+            // Create the span element for location
+            var locationSpan2 = document.createElement("div");
+            locationSpan2.className = "col-5";
+            locationSpan2.style.textAlign = 'right';
+            locationSpan2.textContent = item.location2;
+            
+            //var lineBreak = document.createElement("br");
+            col2.appendChild(dateHeading2);
+            //col3.appendChild(lineBreak);
+            col2.appendChild(locationSpan2);
+        }
         
         experienceContainer.appendChild(resumeBox);
     });
