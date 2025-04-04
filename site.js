@@ -164,25 +164,28 @@ function loadExperience(experienceList) {
         col2.appendChild(heading);
         col2.appendChild(jobTitle);
         
-        var col3 = document.createElement("div");
-        col3.className = "col-9 col-sm-9 col-md-4 pull-right text-right";
+        //var col3 = document.createElement("div");
+        //col3.className = "col-9 col-sm-9 col-md-4 pull-right text-right";
         
         // Create the date heading element
-        var dateHeading = document.createElement("span");
+        var dateHeading = document.createElement("div");
+        dateHeading.className = "col-7";
         dateHeading.textContent = item.date;
         
         // Create the span element for location
-        var locationSpan = document.createElement("span");
+        var locationSpan = document.createElement("div");
+        locationSpan.className = "col-5";
+        locationSpan.style.textAlign = 'right';
         locationSpan.textContent = item.location;
         
-        var lineBreak = document.createElement("br");
-        col3.appendChild(dateHeading);
-        col3.appendChild(lineBreak);
-        col3.appendChild(locationSpan);
+        //var lineBreak = document.createElement("br");
+        col2.appendChild(dateHeading);
+        //col3.appendChild(lineBreak);
+        col2.appendChild(locationSpan);
         
         resumeBox.appendChild(col1);
         resumeBox.appendChild(col2);
-        resumeBox.appendChild(col3);
+        //resumeBox.appendChild(col3);
         
         experienceContainer.appendChild(resumeBox);
     });
