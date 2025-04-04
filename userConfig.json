@@ -103,35 +103,43 @@
       "jobTitle": "Solutions Architect",
       "date": "Dec 2023 - Present",
       "location": "London, UK",
-      "imageSrc": "images/Company/5-databricks.jpg"
+      "imageSrc": "images/Company/5-databricks.jpg",
+      "addRole": "No"
     },
     {
       "company": "PwC UK",
       "jobTitle": "Cloud Solutions Architect / Manager",
       "date": "June 2022 - Nov 2023",
       "location": "London, UK",
-      "imageSrc": "images/Company/4-pwc.png"
+      "imageSrc": "images/Company/4-pwc.png",
+      "addRole": "No"
     },
     {
       "company": "Microsoft",
       "jobTitle": "Cloud Solutions Architect - Engineering",
       "date": "July 2019 - May 2022",
       "location": "London, UK",
-      "imageSrc": "images/Company/3-msft.png"
+      "imageSrc": "images/Company/3-msft.png",
+      "addRole": "Yes",
+      "jobTitle2": "Cloud Consultant",
+      "date2": "Jan 2016 - July 2019",
+      "location2": "Hyderabad, India"
     },
     {
       "company": "Microsoft",
       "jobTitle": "Cloud Consultant",
       "date": "Jan 2016 - July 2019",
       "location": "Hyderabad, India",
-      "imageSrc": "images/Company/3-msft.png"
+      "imageSrc": "images/Company/3-msft.png",
+      "addRole": "No"
     },
     {
       "company": "Aon Hewitt",
       "jobTitle": "Software Engineer",
       "date": "Aug 2015 - Jan 2016",
       "location": "Gurgoan, India",
-      "imageSrc": "images/Company/2-aon.png"
+      "imageSrc": "images/Company/2-aon.png",
+      "addRole": "No"
     }
   ],
   "badgeConfig": [
