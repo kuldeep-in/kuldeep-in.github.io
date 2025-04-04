@@ -151,7 +151,7 @@ function loadExperience(experienceList) {
         col1.appendChild(img);
         
         var col2 = document.createElement("div");
-        col2.className = "col-9 col-sm-9 col-md-6 text-left";
+        col2.className = "col-9 col-sm-9 col-md-12 text-left";
         
         // Create the heading element
         var heading = document.createElement("h4");
