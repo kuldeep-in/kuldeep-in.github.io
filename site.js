@@ -140,7 +140,7 @@ function loadExperience(experienceList) {
 
         // Create the first inner div with the class "col-xs-3 col-sm-3 col-md-2"
         var col1 = document.createElement("div");
-        col1.className = "col-xs-3 col-sm-3 col-md-2";
+        col1.className = "col-3 col-sm-3 col-md-2";
         
         // Create the image element
         var img = document.createElement("img");
@@ -151,7 +151,7 @@ function loadExperience(experienceList) {
         col1.appendChild(img);
         
         var col2 = document.createElement("div");
-        col2.className = "col-xs-9 col-sm-9 col-md-6 text-left";
+        col2.className = "col-9 col-sm-9 col-md-6 text-left";
         
         // Create the heading element
         var heading = document.createElement("h4");
@@ -165,7 +165,7 @@ function loadExperience(experienceList) {
         col2.appendChild(jobTitle);
         
         var col3 = document.createElement("div");
-        col3.className = "col-xs-9 col-sm-9 col-md-4 pull-right text-right";
+        col3.className = "col-9 col-sm-9 col-md-4 pull-right text-right";
         
         // Create the date heading element
         var dateHeading = document.createElement("span");
