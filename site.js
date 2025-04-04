@@ -151,7 +151,7 @@ function loadExperience(experienceList) {
         col1.appendChild(img);
         
         var col2 = document.createElement("div");
-        col2.className = "col-9 col-sm-9 col-md-12 row";
+        col2.className = "col-9 col-sm-9 col-md-10 row";
         
         // Create the heading element
         var heading = document.createElement("h4");
@@ -190,8 +190,7 @@ function loadExperience(experienceList) {
         {
              var jobTitle2 = document.createElement("h5");
             jobTitle2.textContent = item.jobTitle2;
-            
-            col2.appendChild(jobTitle2);
+            jobTitle2.style.paddingTop = '10px';
             
             var dateHeading2 = document.createElement("div");
             dateHeading2.className = "col-7";
@@ -203,9 +202,8 @@ function loadExperience(experienceList) {
             locationSpan2.style.textAlign = 'right';
             locationSpan2.textContent = item.location2;
             
-            //var lineBreak = document.createElement("br");
+            col2.appendChild(jobTitle2);
             col2.appendChild(dateHeading2);
-            //col3.appendChild(lineBreak);
             col2.appendChild(locationSpan2);
         }
         
