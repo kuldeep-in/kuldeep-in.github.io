@@ -131,7 +131,11 @@ Extra extra large xxl ?1400px
         height: 12rem;
         width: 12rem;
     }
-
+    
+    .company-pic {
+        width: 90%;
+    }
+    
     .left-col {
         display: inline-block;
         position: fixed;
