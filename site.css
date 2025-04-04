@@ -216,7 +216,8 @@ h4 {
 
 .company-pic {
     border-radius: 10px;
-    width: 4.5em;
+    width: 100%;
+    height: auto;
     padding: 5px;
 }
 
