@@ -325,13 +325,6 @@
       "webOnly": true
     },
     {
-      "imageUrl": "https://images.credly.com/images/6c7fb568-a3cb-4868-9563-34c31ba3e347/Valuable-Contributor-Silver.png",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Valuable Contributor Silver",
-      "title": "Valuable Contributor Silver",
-      "webOnly": false
-    },
-    {
       "imageUrl": "https://images.credly.com/images/c081877f-08c1-4b72-bb79-8dd795daadff/Valuable-Contributor-Gold.png",
       "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
       "altText": "Valuable Contributor Gold",
@@ -346,25 +339,11 @@
       "webOnly": false
     },
     {
-      "imageUrl": "https://images.credly.com/images/5a009304-bf5b-4570-a58a-84eab2e05085/Mentor-Silver.png",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Mentor Silver",
-      "title": "Mentor Silver",
-      "webOnly": false
-    },
-    {
       "imageUrl": "https://images.credly.com/images/01334c2e-86a5-49ee-8c11-2e12a482a122/Mentor-Gold.png",
       "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
       "altText": "Mentor Gold",
       "title": "Mentor Gold",
       "webOnly": false
-    },
-    {
-      "imageUrl": "images/Badges/CosmosDB_Mentor.jpg",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Mentor - Azure Cosmos DB",
-      "title": "Mentor - Azure Cosmos DB",
-      "webOnly": true
     },
     {
       "imageUrl": "https://images.credly.com/images/d807abc0-9201-41a8-ad25-90ed4a69ee51/Acc_Badge_v4.png",
@@ -399,16 +378,23 @@
       "altText": "Skillable - 100 Students Reached",
       "title": "Skillable - 100 Students Reached",
       "webOnly": false
-    },
-    {
-      "imageUrl": "https://images.credly.com/images/8c6dbe49-15cf-4982-9406-ec65b75a4576/Microsoft_Exam534.png",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Exam 534: Architecting Microsoft Azure Solutions",
-      "title": "Architecting Microsoft Azure Solutions",
-      "webOnly": true
     }
   ],
   "notinUse":[
+        {
+      "imageUrl": "https://images.credly.com/images/6c7fb568-a3cb-4868-9563-34c31ba3e347/Valuable-Contributor-Silver.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Valuable Contributor Silver",
+      "title": "Valuable Contributor Silver",
+      "webOnly": false
+    },
+        {
+      "imageUrl": "https://images.credly.com/images/5a009304-bf5b-4570-a58a-84eab2e05085/Mentor-Silver.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Mentor Silver",
+      "title": "Mentor Silver",
+      "webOnly": false
+    },
         {
           "company": "Microsoft",
           "jobTitle": "Cloud Consultant",
@@ -416,6 +402,20 @@
           "location": "Hyderabad, India",
           "imageSrc": "images/Company/3-msft.png",
           "addRole": "No"
+        },
+        {
+          "imageUrl": "images/Badges/CosmosDB_Mentor.jpg",
+          "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+          "altText": "Mentor - Azure Cosmos DB",
+          "title": "Mentor - Azure Cosmos DB",
+          "webOnly": true
+        },
+        {
+          "imageUrl": "https://images.credly.com/images/8c6dbe49-15cf-4982-9406-ec65b75a4576/Microsoft_Exam534.png",
+          "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+          "altText": "Exam 534: Architecting Microsoft Azure Solutions",
+          "title": "Architecting Microsoft Azure Solutions",
+          "webOnly": true
         }
   ]
 }
