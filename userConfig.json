@@ -136,6 +136,27 @@
   ],
   "badgeConfig": [
     {
+      "imageUrl": "images/Badges/DBXMLProfessional.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Databricks Certified Machine Learning Professional",
+      "title": "Machine Learning Professional",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "images/Badges/DBXDE.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Databricks Certified Data Engineer Associate",
+      "title": "Data Engineer Associate",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "images/Badges/dbxGenAI.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Databricks Generative AI Fundamentals",
+      "title": "Databricks Gen AI Fundamentals",
+      "webOnly": false
+    },
+    {
       "imageUrl": "https://images.credly.com/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png",
       "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
       "altText": "Microsoft Certified: Azure Solutions Architect Expert",
@@ -182,27 +203,6 @@
       "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
       "altText": "Microsoft Certified: Azure Administrator Associate",
       "title": "Azure Administrator Associate",
-      "webOnly": false
-    },
-    {
-      "imageUrl": "images/Badges/DBXMLProfessional.png",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Databricks Certified Machine Learning Professional",
-      "title": "Machine Learning Professional",
-      "webOnly": false
-    },
-    {
-      "imageUrl": "images/Badges/DBXDE.png",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Databricks Certified Data Engineer Associate",
-      "title": "Data Engineer Associate",
-      "webOnly": false
-    },
-    {
-      "imageUrl": "images/Badges/dbxGenAI.png",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Databricks Generative AI Fundamentals",
-      "title": "Databricks Gen AI Fundamentals",
       "webOnly": false
     },
     {
