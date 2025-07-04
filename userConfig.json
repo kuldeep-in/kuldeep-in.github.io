@@ -185,13 +185,6 @@
       "webOnly": false
     },
     {
-      "imageUrl": "https://images.credly.com/images/61542181-0e8d-496c-a17c-3d4bf590eda1/azure-data-engineer-associate-600x600.png",
-      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Microsoft Certified: Azure Data Engineer Associate",
-      "title": "Azure Data Engineer Associate",
-      "webOnly": false
-    },
-    {
       "imageUrl": "https://images.credly.com/images/619f60f8-4f63-4772-910e-dc31c6f2f7e8/image.png",
       "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
       "altText": "Microsoft Certified: Power BI Data Analyst Associate",
