@@ -185,10 +185,10 @@
       "webOnly": false
     },
     {
-      "imageUrl": "https://images.credly.com/images/63316b60-f62d-4e51-aacc-c23cb850089c/azure-developer-associate-600x600.png",
+      "imageUrl": "images/Badges/DBXMLProfessional.png",
       "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Microsoft Certified: Azure Developer Associate",
-      "title": "Azure Developer Associate",
+      "altText": "Databricks Certified Machine Learning Professional",
+      "title": "Machine Learning Professional",
       "webOnly": false
     },
     {
