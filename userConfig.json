@@ -192,10 +192,17 @@
       "webOnly": false
     },
     {
-      "imageUrl": "images/Badges/Databricks Fundamentals.png",
+      "imageUrl": "images/Badges/DBXDE.png",
       "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
-      "altText": "Databricks Lakehouse Fundamentals",
-      "title": "Databricks Lakehouse Fundamentals",
+      "altText": "Databricks Certified Data Engineer Associate",
+      "title": "Data Engineer Associate",
+      "webOnly": false
+    },
+    {
+      "imageUrl": "images/Badges/dbxGenAI.png",
+      "fallbackImageUrl": "images/Badges/Badge_Fallback.png",
+      "altText": "Databricks Generative AI Fundamentals",
+      "title": "Databricks Gen AI Fundamentals",
       "webOnly": false
     },
     {
